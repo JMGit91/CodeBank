@@ -1,0 +1,6 @@
+2026-10-19 15:37:04.662418-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'shorthand applied to flex items (the direct children of a flex container). It c... (259)"; SQL statement:
+insert into term (description,language,name,dtype,id) values (?,?,?,'Attribute',default) [22001-240]
+2026-10-19 15:40:06.413901-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'the fr unit stands for a fraction of the available space inside a CSS Grid cont... (299)"; SQL statement:
+insert into term (description,language,name,dtype,id) values (?,?,?,'Attribute',default) [22001-240]

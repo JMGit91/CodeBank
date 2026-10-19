@@ -1,0 +1,1785 @@
+[
+  {
+    "name": "id",
+    "description": "Defines a unique identifier for the element.",
+    "codeExample": "<div id=\"unique\"></div>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "class",
+    "description": "Assigns one or more class names to the element.",
+    "codeExample": "<div class=\"container main\"></div>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "style",
+    "description": "Applies inline CSS styles to the element.",
+    "codeExample": "<p style=\"color: red;\"></p>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "title",
+    "description": "Provides advisory information about the element, often shown as a tooltip.",
+    "codeExample": "<span title=\"More info\">Hover me</span>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "hidden",
+    "description": "Indicates that the element is not yet, or is no longer, relevant.",
+    "codeExample": "<div hidden></div>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "tabindex",
+    "description": "Specifies the tab order of the element.",
+    "codeExample": "<button tabindex=\"1\">Click</button>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "draggable",
+    "description": "Specifies whether the element is draggable.",
+    "codeExample": "<img src=\"pic.jpg\" draggable=\"true\">",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "contenteditable",
+    "description": "Indicates whether the element's content is editable.",
+    "codeExample": "<div contenteditable=\"true\">Edit me</div>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "accesskey",
+    "description": "Defines a keyboard shortcut to activate or focus the element.",
+    "codeExample": "<button accesskey=\"s\">Save</button>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "lang",
+    "description": "Specifies the language of the element's content.",
+    "codeExample": "<p lang=\"en\">Hello</p>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "dir",
+    "description": "Specifies the text direction for the element.",
+    "codeExample": "<p dir=\"rtl\">مرحبا</p>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "role",
+    "description": "Defines the ARIA role of the element for accessibility.",
+    "codeExample": "<nav role=\"navigation\"></nav>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "aria-hidden",
+    "description": "Indicates whether the element is exposed to assistive technologies.",
+    "codeExample": "<div aria-hidden=\"true\"></div>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "aria-label",
+    "description": "Provides an accessible label for assistive technologies.",
+    "codeExample": "<button aria-label=\"Close\"></button>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "aria-expanded",
+    "description": "Indicates whether a collapsible element is expanded.",
+    "codeExample": "<button aria-expanded=\"false\"></button>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "aria-controls",
+    "description": "Identifies the element controlled by the current element.",
+    "codeExample": "<button aria-controls=\"menu\"></button>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "aria-live",
+    "description": "Indicates how updates to the region should be announced by assistive technologies.",
+    "codeExample": "<div aria-live=\"polite\"></div>",
+    "language": "HTML",
+    "keywords": [
+      "<param>", "<html>", "<head>", "<body>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>", "<em>", "<strong>",
+      "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>",
+      "<var>", "<b>", "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>", "<video>", "<track>", "<iframe>",
+      "<embed>", "<object>", "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>", "<progress>", "<table>",
+      "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>",
+      "<title>", "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>", "<summary>",
+      "<dialog>"
+    ]
+  },
+  {
+    "name": "name",
+    "description": "Specifies the name of the element, used for form submission or identification.",
+    "codeExample": "<input name=\"username\">",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<fieldset>", "<output>", "<form>", "<datalist>", "<meter>", "<progress>"
+    ]
+  },
+  {
+    "name": "value",
+    "description": "Defines the current value of an element.",
+    "codeExample": "<input type=\"text\" value=\"Hello\">",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<option>", "<button>", "<meter>", "<progress>", "<param>", "<output>"
+    ]
+  },
+  {
+    "name": "aria-hidden",
+    "description": "Indicates whether the element is exposed to assistive technologies.",
+    "codeExample": "<div aria-hidden=\"true\"></div>",
+    "language": "HTML",
+    "keywords": [
+      "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>", "<div>",
+      "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>",
+      "<em>", "<strong>", "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>",
+      "<kbd>", "<samp>", "<sub>", "<sup>", "<time>", "<var>", "<b>", "<i>", "<u>", "<s>",
+      "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>",
+      "<video>", "<track>", "<iframe>", "<embed>", "<object>", "<portal>", "<form>",
+      "<input>", "<textarea>", "<button>", "<select>", "<option>", "<optgroup>",
+      "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>",
+      "<progress>", "<table>", "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>",
+      "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>", "<title>", "<base>",
+      "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>",
+      "<summary>", "<dialog>"
+    ]
+  },
+  {
+    "name": "role",
+    "description": "Defines the ARIA role of an element for accessibility.",
+    "codeExample": "<nav role=\"navigation\"></nav>",
+    "language": "HTML",
+    "keywords": [
+      "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>", "<div>",
+      "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<p>", "<a>",
+      "<em>", "<strong>", "<small>", "<mark>", "<abbr>", "<cite>", "<code>", "<dfn>",
+      "<kbd>", "<samp>", "<sub>", "<sup>", "<time>", "<var>", "<b>", "<i>", "<u>", "<s>",
+      "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>", "<img>",
+      "<picture>", "<source>", "<svg>", "<canvas>", "<map>", "<area>", "<audio>",
+      "<video>", "<track>", "<iframe>", "<embed>", "<object>", "<portal>", "<form>",
+      "<input>", "<textarea>", "<button>", "<select>", "<option>", "<optgroup>",
+      "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>", "<meter>",
+      "<progress>", "<table>", "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>",
+      "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>", "<title>", "<base>",
+      "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>",
+      "<summary>", "<dialog>"
+    ]
+  },
+  {
+    "name": "lang",
+    "description": "Specifies the language of the element's content.",
+    "codeExample": "<p lang=\"en\">Hello</p>",
+    "language": "HTML",
+    "keywords": [
+      "<html>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>",
+      "<p>", "<a>", "<em>", "<strong>", "<small>", "<mark>", "<abbr>", "<cite>",
+      "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>", "<var>", "<b>",
+      "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>",
+      "<dt>", "<dd>", "<img>", "<picture>", "<source>", "<svg>", "<canvas>", "<map>",
+      "<area>", "<audio>", "<video>", "<track>", "<iframe>", "<embed>", "<object>",
+      "<portal>", "<form>", "<input>", "<textarea>", "<button>", "<select>", "<option>",
+      "<optgroup>", "<label>", "<fieldset>", "<legend>", "<datalist>", "<output>",
+      "<meter>", "<progress>", "<table>", "<caption>", "<thead>", "<tbody>", "<tfoot>",
+      "<tr>", "<td>", "<th>", "<colgroup>", "<col>", "<meta>", "<link>", "<title>",
+      "<base>", "<style>", "<script>", "<noscript>", "<template>", "<slot>", "<details>",
+      "<summary>", "<dialog>"
+    ]
+  },
+  {
+    "name": "dir",
+    "description": "Specifies the text direction of the element.",
+    "codeExample": "<p dir=\"rtl\">مرحبا</p>",
+    "language": "HTML",
+    "keywords": [
+      "<html>", "<header>", "<footer>", "<nav>", "<section>", "<article>", "<aside>",
+      "<div>", "<main>", "<span>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>",
+      "<p>", "<a>", "<em>", "<strong>", "<small>", "<mark>", "<abbr>", "<cite>",
+      "<code>", "<dfn>", "<kbd>", "<samp>", "<sub>", "<sup>", "<time>", "<var>", "<b>",
+      "<i>", "<u>", "<s>", "<blockquote>", "<q>", "<ul>", "<ol>", "<li>", "<dl>",
+      "<dt>", "<dd>", "<form>", "<textarea>", "<button>", "<label>"
+    ]
+  },
+  {
+    "name": "autofocus",
+    "description": "Automatically focuses the element when the page loads.",
+    "codeExample": "<input autofocus>",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<textarea>", "<button>", "<select>"
+    ]
+  },
+  {
+    "name": "aria-label",
+    "description": "Defines an accessible label for assistive technologies.",
+    "codeExample": "<button aria-label=\"Close\"></button>",
+    "language": "HTML",
+    "keywords": [
+      "<button>", "<a>", "<input>", "<textarea>", "<select>", "<details>", "<summary>",
+      "<dialog>", "<img>", "<div>", "<span>"
+    ]
+  },
+  {
+    "name": "aria-expanded",
+    "description": "Indicates whether a collapsible element is expanded.",
+    "codeExample": "<button aria-expanded=\"false\"></button>",
+    "language": "HTML",
+    "keywords": [
+      "<button>", "<details>", "<summary>"
+    ]
+  },
+  {
+    "name": "aria-controls",
+    "description": "Identifies the element controlled by the current element.",
+    "codeExample": "<button aria-controls=\"menu\"></button>",
+    "language": "HTML",
+    "keywords": [
+      "<button>", "<a>", "<input>"
+    ]
+  },
+  {
+    "name": "aria-live",
+    "description": "Indicates how updates to the region should be announced by assistive technologies.",
+    "codeExample": "<div aria-live=\"polite\"></div>",
+    "language": "HTML",
+    "keywords": [
+      "<div>", "<span>", "<p>", "<output>"
+    ]
+  },
+  {
+    "name": "href",
+    "description": "Specifies the URL of a linked resource.",
+    "codeExample": "<a href=\"https://example.com\">Visit</a>",
+    "language": "HTML",
+    "keywords": [
+      "<a>", "<area>", "<link>", "<base>"
+    ]
+  },
+  {
+    "name": "target",
+    "description": "Specifies where to open the linked document.",
+    "codeExample": "<a href=\"/page\" target=\"_blank\">Open</a>",
+    "language": "HTML",
+    "keywords": [
+      "<a>", "<area>", "<form>", "<base>"
+    ]
+  },
+  {
+    "name": "rel",
+    "description": "Defines the relationship between the current document and the linked resource.",
+    "codeExample": "<link rel=\"stylesheet\" href=\"style.css\">",
+    "language": "HTML",
+    "keywords": [
+      "<a>", "<area>", "<link>"
+    ]
+  },
+  {
+    "name": "type",
+    "description": "Specifies the MIME type of the linked or embedded resource.",
+    "codeExample": "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+    "language": "HTML",
+    "keywords": [
+      "<link>", "<script>", "<source>", "<object>"
+    ]
+  },
+  {
+    "name": "src",
+    "description": "Specifies the URL of an embedded resource.",
+    "codeExample": "<img src=\"photo.jpg\">",
+    "language": "HTML",
+    "keywords": [
+      "<img>", "<script>", "<iframe>", "<audio>", "<video>", "<embed>", "<source>", "<track>"
+    ]
+  },
+  {
+    "name": "alt",
+    "description": "Provides alternative text for images.",
+    "codeExample": "<img src=\"photo.jpg\" alt=\"A photo\">",
+    "language": "HTML",
+    "keywords": [
+      "<img>", "<area>"
+    ]
+  },
+  {
+    "name": "srcset",
+    "description": "Defines multiple image sources for responsive images.",
+    "codeExample": "<img src=\"photo.jpg\" srcset=\"photo@2x.jpg 2x\">",
+    "language": "HTML",
+    "keywords": [
+      "<img>", "<source>"
+    ]
+  },
+  {
+    "name": "sizes",
+    "description": "Defines image display sizes for responsive images.",
+    "codeExample": "<img src=\"photo.jpg\" sizes=\"(max-width: 600px) 100vw, 50vw\">",
+    "language": "HTML",
+    "keywords": [
+      "<img>", "<source>"
+    ]
+  },
+  {
+    "name": "decoding",
+    "description": "Hints how the browser should decode the image.",
+    "codeExample": "<img src=\"photo.jpg\" decoding=\"async\">",
+    "language": "HTML",
+    "keywords": [
+      "<img>"
+    ]
+  },
+  {
+    "name": "loading",
+    "description": "Indicates how the browser should load the resource.",
+    "codeExample": "<img src=\"photo.jpg\" loading=\"lazy\">",
+    "language": "HTML",
+    "keywords": [
+      "<img>", "<iframe>"
+    ]
+  },
+  {
+    "name": "crossorigin",
+    "description": "Controls CORS settings for the resource.",
+    "codeExample": "<img src=\"photo.jpg\" crossorigin=\"anonymous\">",
+    "language": "HTML",
+    "keywords": [
+      "<img>", "<audio>", "<video>", "<script>", "<link>"
+    ]
+  },
+  {
+    "name": "autoplay",
+    "description": "Specifies that the media should start playing automatically.",
+    "codeExample": "<video autoplay></video>",
+    "language": "HTML",
+    "keywords": [
+      "<audio>", "<video>"
+    ]
+  },
+  {
+    "name": "loop",
+    "description": "Specifies that the media should restart when it reaches the end.",
+    "codeExample": "<audio loop></audio>",
+    "language": "HTML",
+    "keywords": [
+      "<audio>", "<video>"
+    ]
+  },
+  {
+    "name": "muted",
+    "description": "Indicates that the audio output of the media should be muted.",
+    "codeExample": "<video muted></video>",
+    "language": "HTML",
+    "keywords": [
+      "<audio>", "<video>"
+    ]
+  },
+  {
+    "name": "controls",
+    "description": "Displays playback controls for the media.",
+    "codeExample": "<audio controls></audio>",
+    "language": "HTML",
+    "keywords": [
+      "<audio>", "<video>"
+    ]
+  },
+  {
+    "name": "preload",
+    "description": "Provides a hint to the browser about what to preload for the media.",
+    "codeExample": "<audio preload=\"metadata\"></audio>",
+    "language": "HTML",
+    "keywords": [
+      "<audio>", "<video>"
+    ]
+  },
+  {
+    "name": "poster",
+    "description": "Specifies an image to be shown while the video is downloading or until the user hits play.",
+    "codeExample": "<video poster=\"thumbnail.jpg\"></video>",
+    "language": "HTML",
+    "keywords": [
+      "<video>"
+    ]
+  },
+  {
+    "name": "referrerpolicy",
+    "description": "Controls how much referrer information is sent when fetching a resource.",
+    "codeExample": "<img src=\"photo.jpg\" referrerpolicy=\"no-referrer\">",
+    "language": "HTML",
+    "keywords": [
+      "<img>", "<iframe>", "<link>", "<script>"
+    ]
+  },
+  {
+    "name": "sandbox",
+    "description": "Applies extra restrictions to the content inside an iframe.",
+    "codeExample": "<iframe src=\"page.html\" sandbox></iframe>",
+    "language": "HTML",
+    "keywords": [
+      "<iframe>"
+    ]
+  },
+  {
+    "name": "allow",
+    "description": "Specifies feature policy permissions for an iframe.",
+    "codeExample": "<iframe src=\"page.html\" allow=\"camera; microphone\"></iframe>",
+    "language": "HTML",
+    "keywords": [
+      "<iframe>"
+    ]
+  },
+  {
+    "name": "allowfullscreen",
+    "description": "Indicates that the iframe is allowed to request fullscreen.",
+    "codeExample": "<iframe src=\"video.html\" allowfullscreen></iframe>",
+    "language": "HTML",
+    "keywords": [
+      "<iframe>"
+    ]
+  },
+  {
+    "name": "autocomplete",
+    "description": "Specifies whether the browser should provide autocomplete suggestions.",
+    "codeExample": "<input autocomplete=\"email\">",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<textarea>", "<select>", "<form>"
+    ]
+  },
+  {
+    "name": "placeholder",
+    "description": "Provides a hint describing the expected value of the input.",
+    "codeExample": "<input placeholder=\"Enter your name\">",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<textarea>"
+    ]
+  },
+  {
+    "name": "required",
+    "description": "Indicates that the user must fill in the value before submitting.",
+    "codeExample": "<input required>",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<select>", "<textarea>"
+    ]
+  },
+  {
+    "name": "disabled",
+    "description": "Indicates that the element is not available for interaction.",
+    "codeExample": "<button disabled>Submit</button>",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<textarea>", "<button>", "<select>", "<option>", "<optgroup>", "<fieldset>"
+    ]
+  },
+  {
+    "name": "readonly",
+    "description": "Indicates that the user cannot modify the value.",
+    "codeExample": "<input readonly>",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<textarea>"
+    ]
+  },
+  {
+    "name": "min",
+    "description": "Specifies the minimum value allowed.",
+    "codeExample": "<input type=\"number\" min=\"0\">",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<meter>"
+    ]
+  },
+  {
+    "name": "max",
+    "description": "Specifies the maximum value allowed.",
+    "codeExample": "<input type=\"number\" max=\"100\">",
+    "language": "HTML",
+    "keywords": [
+      "<input>", "<meter>"
+    ]
+  },
+  {
+    "name": "step",
+    "description": "Specifies the legal number intervals for the input.",
+    "codeExample": "<input type=\"number\" step=\"5\">",
+    "language": "HTML",
+    "keywords": [
+      "<input>"
+    ]
+  },
+  {
+    "name": "pattern",
+    "description": "Defines a regular expression the input value must match.",
+    "codeExample": "<input pattern=\"[A-Za-z]+\">",
+    "language": "HTML",
+    "keywords": [
+      "<input>"
+    ]
+  },
+  {
+    "name": "colspan",
+    "description": "Specifies how many columns a cell should span.",
+    "codeExample": "<td colspan=\"2\">Merged</td>",
+    "language": "HTML",
+    "keywords": [
+      "<td>", "<th>"
+    ]
+  },
+  {
+    "name": "rowspan",
+    "description": "Specifies how many rows a cell should span.",
+    "codeExample": "<td rowspan=\"3\">Merged</td>",
+    "language": "HTML",
+    "keywords": [
+      "<td>", "<th>"
+    ]
+  },
+  {
+    "name": "headers",
+    "description": "Associates table cells with header cells.",
+    "codeExample": "<td headers=\"header1\">Data</td>",
+    "language": "HTML",
+    "keywords": [
+      "<td>", "<th>"
+    ]
+  },
+  {
+    "name": "scope",
+    "description": "Indicates the scope of a header cell in a table.",
+    "codeExample": "<th scope=\"row\">Name</th>",
+    "language": "HTML",
+    "keywords": [
+      "<th>"
+    ]
+  },
+    {
+      "name": "UNSIGNED",
+      "description": "Specifies that a numeric column cannot store negative values.",
+      "codeExample": "CREATE TABLE t (id INT UNSIGNED);",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE", "CAST"]
+    },
+    {
+      "name": "DEFAULT",
+      "description": "Assigns a default value to a column when no value is provided.",
+      "codeExample": "CREATE TABLE t (active BOOLEAN DEFAULT TRUE);",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE", "INSERT", "UPDATE"]
+    },
+    {
+      "name": "NOT NULL",
+      "description": "Ensures a column cannot store NULL values.",
+      "codeExample": "CREATE TABLE t (name VARCHAR(50) NOT NULL);",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE"]
+    },
+    {
+      "name": "PRECISION",
+      "description": "Defines the total number of digits allowed in a numeric type.",
+      "codeExample": "CREATE TABLE t (amount DECIMAL(10,2));",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE", "CAST"]
+    },
+    {
+      "name": "SCALE",
+      "description": "Defines the number of digits allowed after the decimal point.",
+      "codeExample": "CREATE TABLE t (amount DECIMAL(10,2));",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE", "CAST"]
+    },
+    {
+      "name": "LENGTH",
+      "description": "Specifies the maximum size of a character or binary column.",
+      "codeExample": "CREATE TABLE t (name VARCHAR(255));",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE", "CAST"]
+    },
+    {
+      "name": "WITH TIME ZONE",
+      "description": "Indicates that a timestamp or time value includes time zone information.",
+      "codeExample": "CREATE TABLE t (created TIMESTAMP WITH TIME ZONE);",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE", "CREATE VIEW", "CAST"]
+    },
+    {
+      "name": "YEAR/MONTH/DAY/HOUR/MINUTE/SECOND",
+      "description": "Defines precision for temporal fields or interval components.",
+      "codeExample": "CREATE TABLE t (duration INTERVAL DAY TO SECOND);",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE", "EXTRACT", "CAST"]
+    },
+    {
+      "name": "CHECK(JSON_VALID(metadata))",
+      "description": "Ensures that a column contains valid JSON data.",
+      "codeExample": "CREATE TABLE t (metadata JSON CHECK(JSON_VALID(metadata)));",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE"]
+    },
+    {
+      "name": "SRID",
+      "description": "Specifies the spatial reference identifier for geometry columns.",
+      "codeExample": "CREATE TABLE t (shape GEOMETRY SRID 4326);",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE", "CAST"]
+    },
+    {
+      "name": "COLLATE",
+      "description": "Defines the collation used for sorting and comparing text.",
+      "codeExample": "SELECT name FROM users ORDER BY name COLLATE 'en_US';",
+      "language": "SQL",
+      "keywords": ["CREATE TABLE", "ALTER TABLE", "SELECT", "ORDER BY", "CREATE INDEX", "CAST"]
+    },
+    {
+      "name": "LEADING",
+      "description": "Removes leading characters when used with TRIM.",
+      "codeExample": "SELECT TRIM(LEADING '0' FROM code);",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "INSERT"]
+    },
+    {
+      "name": "TRAILING",
+      "description": "Removes trailing characters when used with TRIM.",
+      "codeExample": "SELECT TRIM(TRAILING 'x' FROM tag);",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "INSERT"]
+    },
+    {
+      "name": "BOTH",
+      "description": "Removes leading and trailing characters when used with TRIM.",
+      "codeExample": "SELECT TRIM(BOTH ' ' FROM name);",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "INSERT"]
+    },
+    {
+      "name": "TOP",
+      "description": "Limits the number of rows returned in SQL Server.",
+      "codeExample": "SELECT TOP 10 * FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "ALL",
+      "description": "Returns all rows or disables DISTINCT behavior.",
+      "codeExample": "SELECT ALL name FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT", "UNION ALL"]
+    },
+    {
+      "name": "VALUES",
+      "description": "Defines literal row values for INSERT or SELECT.",
+      "codeExample": "INSERT INTO t VALUES (1, 'A');",
+      "language": "SQL",
+      "keywords": ["INSERT", "SELECT"]
+    },
+    {
+      "name": "DEFAULT VALUES",
+      "description": "Inserts a row using only default column values.",
+      "codeExample": "INSERT INTO t DEFAULT VALUES;",
+      "language": "SQL",
+      "keywords": ["INSERT"]
+    },
+    {
+      "name": "SET",
+      "description": "Assigns new values to columns in UPDATE statements.",
+      "codeExample": "UPDATE users SET active = TRUE;",
+      "language": "SQL",
+      "keywords": ["UPDATE", "INSERT"]
+    },
+    {
+      "name": "WHERE",
+      "description": "Filters rows in queries or DML operations.",
+      "codeExample": "DELETE FROM users WHERE active = FALSE;",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "DELETE"]
+    },
+    {
+      "name": "FROM",
+      "description": "Specifies the source table for a query.",
+      "codeExample": "SELECT * FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT", "DELETE", "UPDATE"]
+    },
+    {
+      "name": "AND",
+      "description": "Combines multiple logical conditions.",
+      "codeExample": "SELECT * FROM users WHERE active = TRUE AND age > 18;",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "DELETE", "HAVING", "CASE"]
+    },
+    {
+      "name": "OR",
+      "description": "Provides alternative logical conditions.",
+      "codeExample": "SELECT * FROM users WHERE role = 'admin' OR role = 'editor';",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "DELETE", "HAVING", "CASE"]
+    },
+    {
+      "name": "NOT",
+      "description": "Negates a logical condition.",
+      "codeExample": "SELECT * FROM users WHERE NOT active;",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "DELETE", "HAVING", "CASE"]
+    },
+    {
+      "name": "HAVING",
+      "description": "Filters grouped query results.",
+      "codeExample": "SELECT role, COUNT(*) FROM users GROUP BY role HAVING COUNT(*) > 5;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "DESC",
+      "description": "Sorts results in descending order.",
+      "codeExample": "SELECT * FROM users ORDER BY created DESC;",
+      "language": "SQL",
+      "keywords": ["ORDER BY", "CREATE INDEX"]
+    },
+    {
+      "name": "OFFSET",
+      "description": "Skips a number of rows in a result set.",
+      "codeExample": "SELECT * FROM users OFFSET 10;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "INNER",
+      "description": "Performs an inner join between tables.",
+      "codeExample": "SELECT * FROM a INNER JOIN b ON a.id = b.id;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "LEFT",
+      "description": "Performs a left outer join.",
+      "codeExample": "SELECT * FROM a LEFT JOIN b ON a.id = b.id;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "RIGHT",
+      "description": "Performs a right outer join.",
+      "codeExample": "SELECT * FROM a RIGHT JOIN b ON a.id = b.id;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "FULL",
+      "description": "Performs a full outer join.",
+      "codeExample": "SELECT * FROM a FULL JOIN b ON a.id = b.id;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "ON",
+      "description": "Defines join conditions.",
+      "codeExample": "SELECT * FROM a JOIN b ON a.id = b.id;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "USING",
+      "description": "Defines join conditions using shared column names.",
+      "codeExample": "SELECT * FROM a JOIN b USING (id);",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "WHEN",
+      "description": "Starts a conditional branch in CASE expressions.",
+      "codeExample": "SELECT CASE WHEN active THEN 'yes' END FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "INSERT"]
+    },
+    {
+      "name": "THEN",
+      "description": "Defines the result of a CASE condition.",
+      "codeExample": "SELECT CASE WHEN active THEN 'yes' END FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "INSERT"]
+    },
+    {
+      "name": "ELSE",
+      "description": "Provides a fallback result in CASE expressions.",
+      "codeExample": "SELECT CASE WHEN active THEN 'yes' ELSE 'no' END FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "INSERT"]
+    },
+    {
+      "name": "END",
+      "description": "Closes a CASE expression.",
+      "codeExample": "SELECT CASE WHEN active THEN 'yes' END FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT", "UPDATE", "INSERT"]
+    },
+    {
+      "name": "AS",
+      "description": "Assigns an alias to columns or tables.",
+      "codeExample": "SELECT name AS username FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT", "CREATE VIEW", "CREATE TABLE"]
+    },
+    {
+      "name": "DISTINCT",
+      "description": "Removes duplicate rows from a result set.",
+      "codeExample": "SELECT DISTINCT role FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "OVER",
+      "description": "Defines a window for window functions.",
+      "codeExample": "SELECT ROW_NUMBER() OVER (ORDER BY id) FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "PARTITION BY",
+      "description": "Divides rows into partitions for window functions.",
+      "codeExample": "SELECT RANK() OVER (PARTITION BY role ORDER BY id) FROM users;",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "ORDER BY",
+      "description": "Sorts query results.",
+      "codeExample": "SELECT * FROM users ORDER BY name;",
+      "language": "SQL",
+      "keywords": ["SELECT", "WINDOW FUNCTION", "CREATE INDEX"]
+    },
+    {
+      "name": "PATH",
+      "description": "Specifies a JSON path expression.",
+      "codeExample": "SELECT JSON_VALUE(metadata, '$.name' PATH);",
+      "language": "SQL",
+      "keywords": ["SELECT", "CREATE INDEX"]
+    },
+    {
+      "name": "RETURNING",
+      "description": "Returns affected rows from DML operations.",
+      "codeExample": "INSERT INTO users(name) VALUES('A') RETURNING id;",
+      "language": "SQL",
+      "keywords": ["INSERT", "UPDATE", "DELETE"]
+    },
+    {
+      "name": "PASSING",
+      "description": "Passes external values into JSON/XML functions.",
+      "codeExample": "SELECT JSON_QUERY(doc PASSING '{\"id\":1}' AS data);",
+      "language": "SQL",
+      "keywords": ["SELECT"]
+    },
+    {
+      "name": "WITH GRANT OPTION",
+      "description": "Allows the recipient of a privilege to grant it to others.",
+      "codeExample": "GRANT SELECT ON users TO bob WITH GRANT OPTION;",
+      "language": "SQL",
+      "keywords": ["GRANT"]
+    },
+    {
+      "name": "CASCADE",
+      "description": "Automatically removes dependent objects or privileges.",
+      "codeExample": "REVOKE SELECT ON users FROM bob CASCADE;",
+      "language": "SQL",
+      "keywords": ["REVOKE", "DROP USER", "DROP ROLE"]
+    },
+    {
+      "name": "IDENTIFIED BY",
+      "description": "Sets a password for a user.",
+      "codeExample": "CREATE USER bob IDENTIFIED BY 'secret';",
+      "language": "SQL",
+      "keywords": ["CREATE USER", "ALTER USER"]
+    },
+    {
+      "name": "DEFAULT ROLE",
+      "description": "Assigns a default role to a user.",
+      "codeExample": "ALTER USER bob DEFAULT ROLE admin;",
+      "language": "SQL",
+      "keywords": ["CREATE USER", "ALTER USER"]
+    },
+    {
+      "name": "ACCOUNT LOCK",
+      "description": "Locks a user account.",
+      "codeExample": "ALTER USER bob ACCOUNT LOCK;",
+      "language": "SQL",
+      "keywords": ["ALTER USER"]
+    },
+    {
+      "name": "ACCOUNT UNLOCK",
+      "description": "Unlocks a user account.",
+      "codeExample": "ALTER USER bob ACCOUNT UNLOCK;",
+      "language": "SQL",
+      "keywords": ["ALTER USER"]
+    },
+    {
+      "name": "SESSION",
+      "description": "Modifies session-level settings.",
+      "codeExample": "ALTER SESSION SET timezone = 'UTC';",
+      "language": "SQL",
+      "keywords": ["SET SESSION", "ALTER SESSION"]
+    },
+    {
+      "name": "#RRGGBB",
+      "description": "color selection",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "accent-color","background-color","border-block-color","border-block-end-color", "border-block-start-color", "border-bottom-color", "border-color", "border-inline-color", "border-inline-end-color", "border-inline-start-color", "border-left-color", "border-right-color", "border-top-color", "caret-color", "color", "color-scheme", "outline-color", "scrollbar-color"
+      ]
+    },
+    {
+      "name": "%",
+      "description": "percentage",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "scrollbar-width", "background-size", "block-size", "border-block-end-width", "border-block-start-width", "border-bottom-width", "border-image-width", "border-inline-end-width", "border-inline-start-width", "border-left-width",   "border-right-width", "border-top-width", "border-width", "bottom", "column-gap", "font-size", "gap", "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template", "height", "inline-size", "inset", "left", "line-height", "margin", "margin-bottom", "margin-left", "margin-right", "margin-top", "max-height",  "max-width", "min-height", "min-width", "outline-width", "padding",  "padding-bottom", "padding-left", "padding-right", "padding-top", "resize", "right", "row-gap", "scroll-margin", "scroll-padding", "scrollbar-width", "tab-size", "top", "width"
+
+      ]
+    },
+    {
+      "name": "absolute",
+      "description": "removes an element from the normal document flow and positions it precisely relative to its nearest positioned ancestor ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "position"
+
+      ]
+    },
+    {
+      "name": "auto",
+      "description": "auto configuration",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "scrollbar-width", "background-size", "block-size", "border-block-end-width", "border-block-start-width", "border-bottom-width", "border-image-width", "border-inline-end-width", "border-inline-start-width", "border-left-width",   "border-right-width", "border-top-width", "border-width", "bottom", "column-gap", "font-size", "gap", "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template", "height", "inline-size", "inset", "left", "line-height", "margin", "margin-bottom", "margin-left", "margin-right", "margin-top", "max-height",  "max-width", "min-height", "min-width", "outline-width", "padding",  "padding-bottom", "padding-left", "padding-right", "padding-top", "resize", "right", "row-gap", "scroll-margin", "scroll-padding", "scrollbar-width", "tab-size", "top", "width"
+
+      ]
+    },
+    {
+      "name": "block",
+      "description": "forces an HTML element to behave as a block-level element ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "display"
+
+      ]
+    },
+    {
+      "name": "bold",
+      "description": "bold text",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "font-family", "font-style", "font-variant", "font-weight"
+
+      ]
+    },
+    {
+      "name": "center",
+      "description": "a keyword used across several layout and formatting properties to position content in the middle of its container ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "text-align"
+
+      ]
+    },
+    {
+      "name": "colors",
+      "description": "this value references the ability to use a color",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "accent-color","background-color","border-block-color","border-block-end-color", "border-block-start-color", "border-bottom-color", "border-color", "border-inline-color", "border-inline-end-color", "border-inline-start-color", "border-left-color", "border-right-color", "border-top-color", "caret-color", "color", "color-scheme", "outline-color", "scrollbar-color"
+      ]
+    },
+    {
+      "name": "column",
+      "description": "dictates that a flex container stacks its items vertically from top to bottom ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow", "flex-shrink", "flex-wrap"
+      ]
+    },
+    {
+      "name": "contain",
+      "description": "isolates an element and its descendants from the rest of the document tree ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "background-attachment", "background-blend-mode", "background-clip", "background-image", "background-origin", "background-position", "background-repeat", "background"
+      ]
+    },
+    {
+      "name": "cover",
+      "description": "scales an image or video so that it completely fills its container while preserving its original aspect ratio ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "background-attachment", "background-blend-mode", "background-clip", "background-image", "background-origin", "background-position", "background-repeat", "background"
+      ]
+    },
+    {
+      "name": "currentColor",
+      "description": "represents the computed value of an element's color property ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "accent-color","background-color","border-block-color","border-block-end-color", "border-block-start-color", "border-bottom-color", "border-color", "border-inline-color", "border-inline-end-color", "border-inline-start-color", "border-left-color", "border-right-color", "border-top-color", "caret-color", "color", "color-scheme", "outline-color", "scrollbar-color"
+      ]
+    },
+    {
+      "name": "dashed",
+      "description": "dashed style border / outline",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "border", "border-block", "border-block-end", "border-block-end-style", "border-block-start", "border-block-start-style", "border-bottom", "border-bottom-left-radius", "border-bottom-right-radius", "border-bottom-style", "border-collapse", "border-image",   "border-image-outset", "border-image-repeat", "border-image-slice", "border-image-source", "border-inline", "border-inline-end", "border-inline-end-style", "border-inline-start", "border-inline-start-style", "border-left",  "border-left-style", "border-radius", "border-right", "border-right-style", "border-spacing", "border-style", "border-top", "border-top-left-radius", "border-top-right-radius", "border-top-style", "outline", "outline-offset", "outline-style"
+
+      ]
+    },
+    {
+      "name": "default",
+      "description": "Forces the platform-dependent default cursor to show regardless of context. ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "cursor"
+
+      ]
+    },
+    {
+      "name": "deg",
+      "description": "degree",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "perspective", "rotate", "scale", "text-transform", "transform", "transform-origin", "translate"
+
+      ]
+    },
+    {
+      "name": "dotted",
+      "description": "dotted style corder / outline",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "border", "border-block", "border-block-end", "border-block-end-style", "border-block-start", "border-block-start-style", "border-bottom", "border-bottom-left-radius", "border-bottom-right-radius", "border-bottom-style", "border-collapse", "border-image",   "border-image-outset", "border-image-repeat", "border-image-slice", "border-image-source", "border-inline", "border-inline-end", "border-inline-end-style", "border-inline-start", "border-inline-start-style", "border-left",  "border-left-style", "border-radius", "border-right", "border-right-style", "border-spacing", "border-style", "border-top", "border-top-left-radius", "border-top-right-radius", "border-top-style", "outline", "outline-offset", "outline-style"
+
+      ]
+    },
+    {
+      "name": "double",
+      "description": "double style border / outline",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "border", "border-block", "border-block-end", "border-block-end-style", "border-block-start", "border-block-start-style", "border-bottom", "border-bottom-left-radius", "border-bottom-right-radius", "border-bottom-style", "border-collapse", "border-image",   "border-image-outset", "border-image-repeat", "border-image-slice", "border-image-source", "border-inline", "border-inline-end", "border-inline-end-style", "border-inline-start", "border-inline-start-style", "border-left",  "border-left-style", "border-radius", "border-right", "border-right-style", "border-spacing", "border-style", "border-top", "border-top-left-radius", "border-top-right-radius", "border-top-style", "outline", "outline-offset", "outline-style"
+
+      ]
+    },
+    {
+      "name": "ease",
+      "description": "specifies an animation or transition effect with a slow start, then speeds up quickly, and finally ends slowly ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "transition", "transition-delay", "transition-duration", "transition-property", "transition-timing-function", "animation-composition", "animation-delay", "animation-direction", "animation-duration", "animation-fill-mode", "animation-iteration-count", "animation-name", "animation-play-state", "animation-range", "animation-timeline", "animation-timing-function", "animation"
+
+      ]
+    },
+    {
+      "name": "ease-in",
+      "description": "specifies a timing effect that starts slowly and then progressively accelerates until the end of the duration, where it stops abruptly ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "transition", "transition-delay", "transition-duration", "transition-property", "transition-timing-function", "animation-composition", "animation-delay", "animation-direction", "animation-duration", "animation-fill-mode", "animation-iteration-count", "animation-name", "animation-play-state", "animation-range", "animation-timeline", "animation-timing-function", "animation"
+
+      ]
+    },
+    {
+      "name": "ease-out",
+      "description": "defines a transition or animation that starts at full speed and gently decelerates (slows down) as it approaches the end ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "transition", "transition-delay", "transition-duration", "transition-property", "transition-timing-function", "animation-composition", "animation-delay", "animation-direction", "animation-duration", "animation-fill-mode", "animation-iteration-count", "animation-name", "animation-play-state", "animation-range", "animation-timeline", "animation-timing-function", "animation"
+
+      ]
+    },
+    {
+      "name": "em",
+      "description": "a relative length unit whose exact value depends on where it is applied ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "scrollbar-width", "background-size", "block-size", "border-block-end-width", "border-block-start-width", "border-bottom-width", "border-image-width", "border-inline-end-width", "border-inline-start-width", "border-left-width",   "border-right-width", "border-top-width", "border-width", "bottom", "column-gap", "font-size", "gap", "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template", "height", "inline-size", "inset", "left", "line-height", "margin", "margin-bottom", "margin-left", "margin-right", "margin-top", "max-height",  "max-width", "min-height", "min-width", "outline-width", "padding",  "padding-bottom", "padding-left", "padding-right", "padding-top", "resize", "right", "row-gap", "scroll-margin", "scroll-padding", "scrollbar-width", "tab-size", "top", "width"
+
+      ]
+    },
+    {
+      "name": "end",
+      "description": "to place items at the end edge of the alignment container along the relevant axis ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "text-align"
+
+      ]
+    },
+    {
+      "name": "fixed",
+      "description": "is a value for the position property that pins an HTML element relative to the viewport ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "position"
+
+      ]
+    },
+    {
+      "name": "flex",
+      "description": "shorthand applied to flex items (the direct children of a flex container). It controls how an item grows or shrinks to fit the available space.",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "display"
+
+      ]
+    },
+    {
+      "name": "font-family",
+      "description": "font family",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "font-family", "font-style", "font-style", "font-variant", "font-weight"
+
+      ]
+    },
+    {
+      "name": "fr",
+      "description": "the fr unit stands for a fraction of the available space inside a CSS Grid container.",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template"
+
+      ]
+    },
+    {
+      "name": "grid",
+      "description": "a shorthand that allows you to configure an entire grid layout within a single rule ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "display"
+
+      ]
+    },
+    {
+      "name": "hex",
+      "description": "represents the ability to use hexadecimal color",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "accent-color","background-color","border-block-color","border-block-end-color", "border-block-start-color", "border-bottom-color", "border-color", "border-inline-color", "border-inline-end-color", "border-inline-start-color", "border-left-color", "border-right-color", "border-top-color", "caret-color", "color", "color-scheme", "outline-color", "scrollbar-color"
+      ]
+    },
+    {
+      "name": "hsl()",
+      "description": "defines a color in the sRGB color space using three primary components: Hue, Saturation, and Lightness, along with an optional Alpha channel for transparency ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "accent-color","background-color","border-block-color","border-block-end-color", "border-block-start-color", "border-bottom-color", "border-color", "border-inline-color", "border-inline-end-color", "border-inline-start-color", "border-left-color", "border-right-color", "border-top-color", "caret-color", "color", "color-scheme", "outline-color", "scrollbar-color"
+      ]
+    },
+    {
+      "name": "inherit",
+      "description": "forces an element to take the computed value of a property from its parent element. It can be applied to any CSS property on any HTML element, including shorthand properties like all ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "Justify-content", "letter-spacing", "list-style", "mask", "object-fit", "object-position", "order", "pointer-events", "scroll-behavior", "scroll-snap-align", "scroll-snap-stop", "scroll-snap-type", "table-layout", "text-decoration", "text-indent", "text-shadow", "user-select", "vertical-align", "visibility", "white-space", "word-break", "word-spacing", "word-wrap", "z-index", "align-content", "align-items", "align-self", "alignment-baseline", "all", "anchor-name", "anchor-scope", "appearance", "aspect-ratio", "backdrop-filter", "backface-visibility", "box-shadow", "box-sizing", "break-after", "break-before", "break-inside", "caption-side", "clear", "clip-path", "clip", "column-count", "column-rule", "column-span", "columns", "contain", "content", "counter-increment", "counter-reset", "direction", "filter"
+
+      ]
+    },
+    {
+      "name": "initial",
+      "description": "applied directly to a CSS property to reset it to its official W3C specification default value ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "Justify-content", "letter-spacing", "list-style", "mask", "object-fit", "object-position", "order", "pointer-events", "scroll-behavior", "scroll-snap-align", "scroll-snap-stop", "scroll-snap-type", "table-layout", "text-decoration", "text-indent", "text-shadow", "user-select", "vertical-align", "visibility", "white-space", "word-break", "word-spacing", "word-wrap", "z-index", "align-content", "align-items", "align-self", "alignment-baseline", "all", "anchor-name", "anchor-scope", "appearance", "aspect-ratio", "backdrop-filter", "backface-visibility", "box-shadow", "box-sizing", "break-after", "break-before", "break-inside", "caption-side", "clear", "clip-path", "clip", "column-count", "column-rule", "column-span", "columns", "contain", "content", "counter-increment", "counter-reset", "direction", "filter"
+
+      ]
+    },
+    {
+      "name": "inline",
+      "description": "to an element, it generates one or more inline boxes that flow horizontally alongside text and other elements without creating line breaks before or after themselves ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "display"
+
+      ]
+    },
+    {
+      "name": "inline-block",
+      "description": "creates an element that behaves like an inline element on the outside but a block element on the inside ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "display"
+
+      ]
+    },
+    {
+      "name": "italic",
+      "description": "italic version of a font",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "font-family", "font-style", "font-variant", "font-weight"
+
+      ]
+    },
+    {
+      "name": "justify",
+      "description": "typically refers to how elements or text are spaced and aligned along their horizontal or inline axis ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "text-align"
+
+      ]
+    },
+    {
+      "name": "keyword",
+      "description": "predefined text-based strings defined by the W3C specification that tell the browser exactly how to render a property ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "Justify-content", "letter-spacing", "list-style", "mask", "object-fit", "object-position", "order", "pointer-events", "scroll-behavior", "scroll-snap-align", "scroll-snap-stop", "scroll-snap-type", "table-layout", "text-decoration", "text-indent", "text-shadow", "user-select", "vertical-align", "visibility", "white-space", "word-break", "word-spacing", "word-wrap", "z-index", "align-content", "align-items", "align-self", "alignment-baseline", "all", "anchor-name", "anchor-scope", "appearance", "aspect-ratio", "backdrop-filter", "backface-visibility", "box-shadow", "box-sizing", "break-after", "break-before", "break-inside", "caption-side", "clear", "clip-path", "clip", "column-count", "column-rule", "column-span", "columns", "contain", "content", "counter-increment", "counter-reset", "direction", "filter"
+
+      ]
+    },
+    {
+      "name": "left",
+      "description": "specifies the horizontal position of a positioned element ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "text-align"
+
+      ]
+    },
+    {
+      "name": "linear",
+      "description": "used as an easing value or function to ensure that an animation, transition, or transformation progresses at the exact same speed from start to finish without acceleration or deceleration ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "transition", "transition-delay", "transition-duration", "transition-property", "transition-timing-function", "animation-composition", "animation-delay", "animation-direction", "animation-duration", "animation-fill-mode", "animation-iteration-count", "animation-name", "animation-play-state", "animation-range", "animation-timeline", "animation-timing-function", "animation"
+
+      ]
+    },
+    {
+      "name": "linear-gradient()",
+      "description": "gradient of color following a line",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "background-attachment", "background-blend-mode", "background-clip", "background-image", "background-origin", "background-position", "background-repeat", "background"
+
+      ]
+    },
+    {
+      "name": "minmax()",
+      "description": "defines a size range greater than or equal to a minimum value and less than or equal to a maximum value ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template"
+
+      ]
+    },
+    {
+      "name": "ms",
+      "description": "milliseconds",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "transition", "transition-delay", "transition-duration", "transition-property", "transition-timing-function", "animation-composition", "animation-delay", "animation-direction", "animation-duration", "animation-fill-mode", "animation-iteration-count", "animation-name", "animation-play-state", "animation-range", "animation-timeline", "animation-timing-function", "animation"
+
+      ]
+    },
+    {
+      "name": "name",
+      "description": "",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "transition", "transition-delay", "transition-duration", "transition-property", "transition-timing-function", "animation-composition", "animation-delay", "animation-direction", "animation-duration", "animation-fill-mode", "animation-iteration-count", "animation-name", "animation-play-state", "animation-range", "animation-timeline", "animation-timing-function", "animation"
+
+      ]
+    },
+    {
+      "name": "no-repeat",
+      "description": "property to prevent a background image from tiling. When applied, the background image is displayed exactly once within its container ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "background-attachment", "background-blend-mode", "background-clip", "background-image", "background-origin", "background-position", "background-repeat", "background"
+
+      ]
+    },
+    {
+      "name": "none",
+      "description": "none",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "border", "border-block", "border-block-end", "border-block-end-style", "border-block-start", "border-block-start-style", "border-bottom", "border-bottom-left-radius", "border-bottom-right-radius", "border-bottom-style", "border-collapse", "border-image",   "border-image-outset", "border-image-repeat", "border-image-slice", "border-image-source", "border-inline", "border-inline-end", "border-inline-end-style", "border-inline-start", "border-inline-start-style", "border-left",  "border-left-style", "border-radius", "border-right", "border-right-style", "border-spacing", "border-style", "border-top", "border-top-left-radius", "border-top-right-radius", "border-top-style", "outline", "outline-offset", "outline-style"
+
+      ]
+    },
+    {
+      "name": "normal",
+      "description": "use browser standard",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "font-family", "font-style", "font-variant", "font-weight"
+
+      ]
+    },
+    {
+      "name": "not-allowed",
+      "description": "property value displays a red circle with a diagonal slash through it ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "cursor"
+
+      ]
+    },
+    {
+      "name": "nowrap",
+      "description": "a keyword value used with text-formatting properties to prevent text from breaking or wrapping to a new line ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow", "flex-shrink", "flex-wrap"
+
+      ]
+    },
+    {
+      "name": "number",
+      "description": "represents using a number",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "perspective", "rotate", "scale", "text-transform", "transform", "transform-origin", "translate"
+
+      ]
+    },
+    {
+      "name": "number(0-1)",
+      "description": "sets level of opacity",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "opacity"
+
+      ]
+    },
+    {
+      "name": "pointer",
+      "description": "defines the mouse pointer's visual appearance when it hovers over an element ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "cursor"
+
+      ]
+    },
+    {
+      "name": "px",
+      "description": "pixels",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "scrollbar-width", "background-size", "block-size", "border-block-end-width", "border-block-start-width", "border-bottom-width", "border-image-width", "border-inline-end-width", "border-inline-start-width", "border-left-width",   "border-right-width", "border-top-width", "border-width", "bottom", "column-gap", "font-size", "gap", "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template", "height", "inline-size", "inset", "left", "line-height", "margin", "margin-bottom", "margin-left", "margin-right", "margin-top", "max-height",  "max-width", "min-height", "min-width", "outline-width", "padding",  "padding-bottom", "padding-left", "padding-right", "padding-top", "resize", "right", "row-gap", "scroll-margin", "scroll-padding", "scrollbar-width", "tab-size", "top", "width", "perspective", "rotate", "scale", "text-transform", "transform", "transform-origin", "translate"
+
+      ]
+    },
+    {
+      "name": "relative",
+      "description": "places an element relative to its normal position in the document flow ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "position"
+
+      ]
+    },
+    {
+      "name": "rem",
+      "description": "a relative length unit that is calculated based on the font size of the root element (the <html> element) of the web page ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "scrollbar-width", "background-size", "block-size", "border-block-end-width", "border-block-start-width", "border-bottom-width", "border-image-width", "border-inline-end-width", "border-inline-start-width", "border-left-width",   "border-right-width", "border-top-width", "border-width", "bottom", "column-gap", "font-size", "gap", "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template", "height", "inline-size", "inset", "left", "line-height", "margin", "margin-bottom", "margin-left", "margin-right", "margin-top", "max-height",  "max-width", "min-height", "min-width", "outline-width", "padding",  "padding-bottom", "padding-left", "padding-right", "padding-top", "resize", "right", "row-gap", "scroll-margin", "scroll-padding", "scrollbar-width", "tab-size", "top", "width"
+
+      ]
+    },
+    {
+      "name": "repeat()",
+      "description": "represents a repeated fragment of a track list, allowing patterns of columns or rows to be written in a compact form ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template"
+
+      ]
+    },
+    {
+      "name": "revert",
+      "description": "rolls back a property's value to what it would have been if the current style origin (your website's stylesheet) had made no changes to the element ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "Justify-content", "letter-spacing", "list-style", "mask", "object-fit", "object-position", "order", "pointer-events", "scroll-behavior", "scroll-snap-align", "scroll-snap-stop", "scroll-snap-type", "table-layout", "text-decoration", "text-indent", "text-shadow", "user-select", "vertical-align", "visibility", "white-space", "word-break", "word-spacing", "word-wrap", "z-index", "align-content", "align-items", "align-self", "alignment-baseline", "all", "anchor-name", "anchor-scope", "appearance", "aspect-ratio", "backdrop-filter", "backface-visibility", "box-shadow", "box-sizing", "break-after", "break-before", "break-inside", "caption-side", "clear", "clip-path", "clip", "column-count", "column-rule", "column-span", "columns", "contain", "content", "counter-increment", "counter-reset", "direction", "filter"
+
+      ]
+    },
+    {
+      "name": "rgb()",
+      "description": "color scheme",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "accent-color","background-color","border-block-color","border-block-end-color", "border-block-start-color", "border-bottom-color", "border-color", "border-inline-color", "border-inline-end-color", "border-inline-start-color", "border-left-color", "border-right-color", "border-top-color", "caret-color", "color", "color-scheme", "outline-color", "scrollbar-color"
+      ]
+    },
+    {
+      "name": "rgba()",
+      "description": "color scheme",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "accent-color","background-color","border-block-color","border-block-end-color", "border-block-start-color", "border-bottom-color", "border-color", "border-inline-color", "border-inline-end-color", "border-inline-start-color", "border-left-color", "border-right-color", "border-top-color", "caret-color", "color", "color-scheme", "outline-color", "scrollbar-color"
+      ]
+    },
+    {
+      "name": "right",
+      "description": "align to the right",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "text-align"
+
+      ]
+    },
+    {
+      "name": "rotate()",
+      "description": "a transformation that turns an element around a fixed point on a 2D plane ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "perspective", "rotate", "scale", "text-transform", "transform", "transform-origin", "translate"
+
+      ]
+    },
+    {
+      "name": "row",
+      "description": "allows manipulatiuon of a flex box row",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow", "flex-shrink", "flex-wrap"
+
+      ]
+    },
+    {
+      "name": "s",
+      "description": "seconds",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "transition", "transition-delay", "transition-duration", "transition-property", "transition-timing-function", "animation-composition", "animation-delay", "animation-direction", "animation-duration", "animation-fill-mode", "animation-iteration-count", "animation-name", "animation-play-state", "animation-range", "animation-timeline", "animation-timing-function", "animation"
+
+      ]
+    },
+    {
+      "name": "scale()",
+      "description": "allows for scale transformation",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "perspective", "rotate", "scale", "text-transform", "transform", "transform-origin", "translate"
+
+      ]
+    },
+    {
+      "name": "solid",
+      "description": "solid border style",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "border", "border-block", "border-block-end", "border-block-end-style", "border-block-start", "border-block-start-style", "border-bottom", "border-bottom-left-radius", "border-bottom-right-radius", "border-bottom-style", "border-collapse", "border-image",   "border-image-outset", "border-image-repeat", "border-image-slice", "border-image-source", "border-inline", "border-inline-end", "border-inline-end-style", "border-inline-start", "border-inline-start-style", "border-left",  "border-left-style", "border-radius", "border-right", "border-right-style", "border-spacing", "border-style", "border-top", "border-top-left-radius", "border-top-right-radius", "border-top-style", "outline", "outline-offset", "outline-style"
+
+      ]
+    },
+    {
+      "name": "start",
+      "description": "beginning of container",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "text-align"
+
+      ]
+    },
+    {
+      "name": "static",
+      "description": "default positioning behavior for almost every HTML element. When an element is static, it follows the natural, normal layout flow of the web page ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "position"
+
+      ]
+    },
+    {
+      "name": "sticky",
+      "description": "creates a hybrid element that behaves like a relative positioned element until it reaches a specified scroll threshold, at which point it acts like a fixed positioned element ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "position"
+
+      ]
+    },
+    {
+      "name": "table",
+      "description": "table style display container",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "display"
+
+      ]
+    },
+    {
+      "name": "text",
+      "description": "property value changes the mouse pointer into an I-beam symbol ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "cursor"
+
+      ]
+    },
+    {
+      "name": "translate()",
+      "description": "moves an element from its original position along the horizontal (X) axis and vertical (Y) axis ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "perspective", "rotate", "scale", "text-transform", "transform", "transform-origin", "translate"
+
+      ]
+    },
+    {
+      "name": "transparent",
+      "description": "represents transparent color",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "accent-color","background-color","border-block-color","border-block-end-color", "border-block-start-color", "border-bottom-color", "border-color", "border-inline-color", "border-inline-end-color", "border-inline-start-color", "border-left-color", "border-right-color", "border-top-color", "caret-color", "color", "color-scheme", "outline-color", "scrollbar-color"
+      ]
+    },
+    {
+      "name": "unset",
+      "description": "acts as a dynamic reset for a CSS property. It behaves as a \"smart choice\" between two other global CSS values—inherit and initial—depending on whether the target property is naturally inherited from its parent element ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "justify-content", "letter-spacing", "list-style", "mask", "object-fit", "object-position", "order", "pointer-events", "scroll-behavior", "scroll-snap-align", "scroll-snap-stop", "scroll-snap-type", "table-layout", "text-decoration", "text-indent", "text-shadow", "user-select", "vertical-align", "visibility", "white-space", "word-break", "word-spacing", "word-wrap", "z-index", "align-content", "align-items", "align-self", "alignment-baseline", "all", "anchor-name", "anchor-scope", "appearance", "aspect-ratio", "backdrop-filter", "backface-visibility", "box-shadow", "box-sizing", "break-after", "break-before", "break-inside", "caption-side", "clear", "clip-path", "clip", "column-count", "column-rule", "column-span", "columns", "contain", "content", "counter-increment", "counter-reset", "direction", "filter"
+
+      ]
+    },
+    {
+      "name": "url()",
+      "description": "used to include an external file or resource in a stylesheet ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "background-attachment", "background-blend-mode", "background-clip", "background-image", "background-origin", "background-position", "background-repeat", "background"
+
+      ]
+    },
+    {
+      "name": "vh",
+      "description": "a relative length unit where 1vh is equal to 1% of the total height of the browser's viewport ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "scrollbar-width", "background-size", "block-size", "border-block-end-width", "border-block-start-width", "border-bottom-width", "border-image-width", "border-inline-end-width", "border-inline-start-width", "border-left-width",   "border-right-width", "border-top-width", "border-width", "bottom", "column-gap", "font-size", "gap", "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template", "height", "inline-size", "inset", "left", "line-height", "margin", "margin-bottom", "margin-left", "margin-right", "margin-top", "max-height",  "max-width", "min-height", "min-width", "outline-width", "padding",  "padding-bottom", "padding-left", "padding-right", "padding-top", "resize", "right", "row-gap", "scroll-margin", "scroll-padding", "scrollbar-width", "tab-size", "top", "width"
+
+      ]
+    },
+    {
+      "name": "vw",
+      "description": "a relative length unit where 1vw is equal to 1% of the total width of the browser's viewport ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "scrollbar-width", "background-size", "block-size", "border-block-end-width", "border-block-start-width", "border-bottom-width", "border-image-width", "border-inline-end-width", "border-inline-start-width", "border-left-width",   "border-right-width", "border-top-width", "border-width", "bottom", "column-gap", "font-size", "gap", "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-row", "grid-template", "height", "inline-size", "inset", "left", "line-height", "margin", "margin-bottom", "margin-left", "margin-right", "margin-top", "max-height",  "max-width", "min-height", "min-width", "outline-width", "padding",  "padding-bottom", "padding-left", "padding-right", "padding-top", "resize", "right", "row-gap", "scroll-margin", "scroll-padding", "scrollbar-width", "tab-size", "top", "width"
+
+      ]
+    },
+    {
+      "name": "wrap",
+      "description": "allow elements or text to break and flow onto a new line when they run out of space ",
+      "codeExample": "",
+      "language": "CSS",
+      "keywords": [ "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow", "flex-shrink", "flex-wrap"
+
+      ]
+    }
+  ]
+  

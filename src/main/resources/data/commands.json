@@ -1,0 +1,5457 @@
+
+[
+    {
+      "name": "<html>",
+      "description": "The root element that contains the entire HTML document.",
+      "codeExample": "<html lang=\"en\"></html>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "ROOT_STRUCTURE_HTML",
+      "attributes": ["lang", "dir", "xmlns", "xml:lang", "version", "id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<head>",
+      "description": "Contains metadata and resources for the document.",
+      "codeExample": "<head><meta charset=\"UTF-8\"></head>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "ROOT_STRUCTURE_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<body>",
+      "description": "Represents the main content of the HTML document.",
+      "codeExample": "<body><h1>Hello World</h1></body>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "ROOT_STRUCTURE_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "onload", "onunload", "onresize", "onerror", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<header>",
+      "description": "Represents introductory content or a set of navigational links.",
+      "codeExample": "<header><h1>Site Title</h1></header>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "SECTIONING_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<footer>",
+      "description": "Represents a footer for its nearest sectioning element.",
+      "codeExample": "<footer>© 2026 Example</footer>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "SECTIONING_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<nav>",
+      "description": "Defines a section containing navigation links.",
+      "codeExample": "<nav><a href=\"/home\">Home</a></nav>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "SECTIONING_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<section>",
+      "description": "Defines a standalone section of content.",
+      "codeExample": "<section><h2>About</h2></section>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "SECTIONING_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<article>",
+      "description": "Represents independent, self-contained content.",
+      "codeExample": "<article><h2>News</h2></article>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "SECTIONING_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<aside>",
+      "description": "Represents content indirectly related to the main content.",
+      "codeExample": "<aside>Sidebar content</aside>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "SECTIONING_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<div>",
+      "description": "Generic container for flow content.",
+      "codeExample": "<div>Content block</div>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "GROUPING_CONTENT_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<main>",
+      "description": "Represents the dominant content of the document.",
+      "codeExample": "<main><h1>Main Content</h1></main>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "GROUPING_CONTENT_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<span>",
+      "description": "Generic inline container for phrasing content.",
+      "codeExample": "<span>Inline text</span>",
+      "language": "HTML",
+      "category": "STRUCTURAL_HTML",
+      "sub_category": "GROUPING_CONTENT_HTML",
+      "attributes": ["id", "class", "style", "title", "translate", "contenteditable", "draggable", "spellcheck", "tabindex", "hidden", "accesskey", "autocapitalize", "autofocus", "aria-label", "aria-labelledby", "aria-describedby", "aria-hidden", "aria-live", "aria-busy", "aria-current", "aria-details", "aria-errormessage", "aria-expanded", "aria-haspopup", "aria-controls", "aria-flowto", "aria-roledescription", "role", "data-*"]
+    },
+    {
+      "name": "<h1>",
+      "description": "Defines the highest-level heading.",
+      "codeExample": "<h1>Main Title</h1>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "HEADINGS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","aria-live","aria-busy","aria-current","role","data-*"]
+    },
+    {
+      "name": "<h2>",
+      "description": "Defines a second-level heading.",
+      "codeExample": "<h2>Section Title</h2>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "HEADINGS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","aria-live","aria-busy","aria-current","role","data-*"]
+    },
+    {
+      "name": "<h3>",
+      "description": "Defines a third-level heading.",
+      "codeExample": "<h3>Subsection Title</h3>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "HEADINGS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","aria-live","aria-busy","aria-current","role","data-*"]
+    },
+    {
+      "name": "<h4>",
+      "description": "Defines a fourth-level heading.",
+      "codeExample": "<h4>Minor Heading</h4>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "HEADINGS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","aria-live","aria-busy","aria-current","role","data-*"]
+    },
+    {
+      "name": "<h5>",
+      "description": "Defines a fifth-level heading.",
+      "codeExample": "<h5>Small Heading</h5>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "HEADINGS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","aria-live","aria-busy","aria-current","role","data-*"]
+    },
+    {
+      "name": "<h6>",
+      "description": "Defines the lowest-level heading.",
+      "codeExample": "<h6>Tiny Heading</h6>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "HEADINGS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","aria-live","aria-busy","aria-current","role","data-*"]
+    },
+    {
+      "name": "<p>",
+      "description": "Represents a paragraph of text.",
+      "codeExample": "<p>This is a paragraph.</p>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "PARAGRAPHS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","aria-live","aria-busy","aria-current","role","data-*"]
+    },
+    {
+      "name": "<a>",
+      "description": "Defines a hyperlink.",
+      "codeExample": "<a href=\"https://example.com\">Visit</a>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["href","target","rel","download","hreflang","type","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","aria-current","role","data-*"]
+    },
+    {
+      "name": "<em>",
+      "description": "Marks text with stress emphasis.",
+      "codeExample": "<em>Important</em>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<strong>",
+      "description": "Indicates strong importance.",
+      "codeExample": "<strong>Warning</strong>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<small>",
+      "description": "Represents side comments or small print.",
+      "codeExample": "<small>Fine print</small>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<mark>",
+      "description": "Highlights text for reference.",
+      "codeExample": "<mark>Highlighted</mark>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<abbr>",
+      "description": "Defines an abbreviation or acronym.",
+      "codeExample": "<abbr title=\"HyperText Markup Language\">HTML</abbr>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["title","id","class","style","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<cite>",
+      "description": "Represents the title of a work.",
+      "codeExample": "<cite>The Odyssey</cite>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<code>",
+      "description": "Displays inline code.",
+      "codeExample": "<code>console.log('Hi')</code>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<dfn>",
+      "description": "Indicates a term being defined.",
+      "codeExample": "<dfn>API</dfn>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<kbd>",
+      "description": "Represents user input via keyboard.",
+      "codeExample": "<kbd>Ctrl+C</kbd>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<samp>",
+      "description": "Represents sample output.",
+      "codeExample": "<samp>Output text</samp>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<sub>",
+      "description": "Displays subscript text.",
+      "codeExample": "H<sub>2</sub>O",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<sup>",
+      "description": "Displays superscript text.",
+      "codeExample": "x<sup>2</sup>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<time>",
+      "description": "Represents a specific time or date.",
+      "codeExample": "<time datetime=\"2026-10-14\">Today</time>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["datetime","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<var>",
+      "description": "Represents a variable in math or programming.",
+      "codeExample": "<var>x</var>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<b>",
+      "description": "Stylistically offsets text without implying importance.",
+      "codeExample": "<b>Bold text</b>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<i>",
+      "description": "Represents text in an alternate voice or mood.",
+      "codeExample": "<i>Italic text</i>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<u>",
+      "description": "Underlines text.",
+      "codeExample": "<u>Underlined</u>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<s>",
+      "description": "Represents text that is no longer accurate or relevant.",
+      "codeExample": "<s>Old price</s>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "INLINE_SEMANTICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<blockquote>",
+      "description": "Represents a long quotation.",
+      "codeExample": "<blockquote>Quote text</blockquote>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "QUOTATIONS_HTML",
+      "attributes": ["cite","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<q>",
+      "description": "Represents an inline quotation.",
+      "codeExample": "<q>Inline quote</q>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "QUOTATIONS_HTML",
+      "attributes": ["cite","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<ul>",
+      "description": "Defines an unordered list.",
+      "codeExample": "<ul><li>Item</li></ul>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "LISTS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<ol>",
+      "description": "Defines an ordered list.",
+      "codeExample": "<ol><li>Item</li></ol>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "LISTS_HTML",
+      "attributes": ["reversed","start","type","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<li>",
+      "description": "Represents a list item.",
+      "codeExample": "<li>Item</li>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "LISTS_HTML",
+      "attributes": ["value","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<dl>",
+      "description": "Defines a description list.",
+      "codeExample": "<dl><dt>Term</dt><dd>Definition</dd></dl>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "LISTS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<dt>",
+      "description": "Represents a term in a description list.",
+      "codeExample": "<dt>API</dt>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "LISTS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<dd>",
+      "description": "Represents a description or value in a description list.",
+      "codeExample": "<dd>Application Programming Interface</dd>",
+      "language": "HTML",
+      "category": "TEXT_HTML",
+      "sub_category": "LISTS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<img>",
+      "description": "Embeds an image into the document.",
+      "codeExample": "<img src=\"image.png\" alt=\"Example image\">",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "IMAGES_GRAPHICS_HTML",
+      "attributes": ["src","alt","srcset","sizes","crossorigin","usemap","ismap","width","height","loading","decoding","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<picture>",
+      "description": "Contains zero or more <source> elements and one <img> element to provide responsive images.",
+      "codeExample": "<picture><source srcset=\"image.webp\" type=\"image/webp\"><img src=\"image.jpg\" alt=\"Example\"></picture>",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "IMAGES_GRAPHICS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<source>",
+      "description": "Specifies multiple media resources for <picture>, <audio>, or <video>.",
+      "codeExample": "<source srcset=\"image.webp\" type=\"image/webp\">",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "IMAGES_GRAPHICS_HTML",
+      "attributes": ["src","srcset","sizes","type","media","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","autocapitalize","autofocus","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<svg>",
+      "description": "Defines vector-based graphics.",
+      "codeExample": "<svg width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"40\" /></svg>",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "IMAGES_GRAPHICS_HTML",
+      "attributes": ["width","height","viewBox","preserveAspectRatio","xmlns","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<canvas>",
+      "description": "Provides a drawable region for script-based graphics.",
+      "codeExample": "<canvas width=\"300\" height=\"150\"></canvas>",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "IMAGES_GRAPHICS_HTML",
+      "attributes": ["width","height","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<map>",
+      "description": "Defines an image map with clickable areas.",
+      "codeExample": "<map name=\"example-map\"></map>",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "IMAGES_GRAPHICS_HTML",
+      "attributes": ["name","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<area>",
+      "description": "Defines a clickable area inside an image map.",
+      "codeExample": "<area shape=\"rect\" coords=\"34,44,270,350\" href=\"page.html\">",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "IMAGES_GRAPHICS_HTML",
+      "attributes": ["alt","coords","shape","href","target","download","rel","hreflang","type","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<audio>",
+      "description": "Embeds sound content.",
+      "codeExample": "<audio controls src=\"sound.mp3\"></audio>",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "AUDIO_VIDEO_HTML",
+      "attributes": ["src","controls","autoplay","loop","muted","preload","crossorigin","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<video>",
+      "description": "Embeds video content.",
+      "codeExample": "<video controls width=\"400\" src=\"movie.mp4\"></video>",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "AUDIO_VIDEO_HTML",
+      "attributes": ["src","poster","controls","autoplay","loop","muted","playsinline","width","height","preload","crossorigin","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<track>",
+      "description": "Specifies text tracks for <audio> or <video>.",
+      "codeExample": "<track kind=\"subtitles\" src=\"subs.vtt\" srclang=\"en\" label=\"English\">",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "AUDIO_VIDEO_HTML",
+      "attributes": ["kind","src","srclang","label","default","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<iframe>",
+      "description": "Embeds another HTML page.",
+      "codeExample": "<iframe src=\"https://example.com\"></iframe>",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "EMBEDDED_CONTENT_HTML",
+      "attributes": ["src","srcdoc","name","width","height","sandbox","allow","allowfullscreen","loading","referrerpolicy","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<embed>",
+      "description": "Embeds external content like PDFs or plugins.",
+      "codeExample": "<embed src=\"file.pdf\" type=\"application/pdf\">",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "EMBEDDED_CONTENT_HTML",
+      "attributes": ["src","type","width","height","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<object>",
+      "description": "Embeds external resources such as multimedia or applications.",
+      "codeExample": "<object data=\"movie.swf\" type=\"application/x-shockwave-flash\"></object>",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "EMBEDDED_CONTENT_HTML",
+      "attributes": ["data","type","name","form","width","height","usemap","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<param>",
+      "description": "Defines parameters for <object>.",
+      "codeExample": "<param name=\"autoplay\" value=\"true\">",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "EMBEDDED_CONTENT_HTML",
+      "attributes": ["name","value","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<portal>",
+      "description": "Allows seamless navigation between pages.",
+      "codeExample": "<portal src=\"https://example.com\"></portal>",
+      "language": "HTML",
+      "category": "MEDIA_HTML",
+      "sub_category": "EMBEDDED_CONTENT_HTML",
+      "attributes": ["src","referrerpolicy","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<form>",
+      "description": "Defines an interactive form for submitting user input.",
+      "codeExample": "<form action=\"/submit\" method=\"post\"></form>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "FORM_CONTAINER_HTML",
+      "attributes": ["action","method","enctype","accept-charset","autocomplete","name","novalidate","rel","target","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<input>",
+      "description": "Represents a typed data field allowing user input.",
+      "codeExample": "<input type=\"text\" placeholder=\"Enter name\">",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "INPUT_CONTROLS_HTML",
+      "attributes": ["type","name","value","placeholder","autocomplete","autofocus","required","readonly","disabled","min","max","step","pattern","size","maxlength","multiple","checked","src","alt","height","width","form","list","accept","capture","inputmode","dirname","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-errormessage","aria-invalid","aria-required","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<textarea>",
+      "description": "Defines a multi-line text input control.",
+      "codeExample": "<textarea rows=\"4\" cols=\"50\"></textarea>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "INPUT_CONTROLS_HTML",
+      "attributes": ["name","rows","cols","wrap","maxlength","minlength","placeholder","readonly","required","disabled","autocomplete","autofocus","form","dirname","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-errormessage","aria-invalid","aria-required","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<button>",
+      "description": "Represents a clickable button.",
+      "codeExample": "<button type=\"submit\">Submit</button>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "BUTTONS_HTML",
+      "attributes": ["type","name","value","autofocus","disabled","form","formaction","formenctype","formmethod","formnovalidate","formtarget","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-pressed","aria-expanded","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<select>",
+      "description": "Creates a drop-down list.",
+      "codeExample": "<select><option>One</option></select>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "FORM_HELPERS_HTML",
+      "attributes": ["name","required","disabled","autofocus","multiple","size","form","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-invalid","aria-required","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<option>",
+      "description": "Defines an item within a <select> element.",
+      "codeExample": "<option value=\"1\">One</option>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "FORM_HELPERS_HTML",
+      "attributes": ["value","label","selected","disabled","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<optgroup>",
+      "description": "Groups related options within a <select> element.",
+      "codeExample": "<optgroup label=\"Group\"><option>Item</option></optgroup>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "FORM_HELPERS_HTML",
+      "attributes": ["label","disabled","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<label>",
+      "description": "Defines a caption for a form control.",
+      "codeExample": "<label for=\"name\">Name</label>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "FORM_HELPERS_HTML",
+      "attributes": ["for","form","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<fieldset>",
+      "description": "Groups related form controls.",
+      "codeExample": "<fieldset><legend>Info</legend></fieldset>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "FORM_HELPERS_HTML",
+      "attributes": ["disabled","form","name","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<legend>",
+      "description": "Defines a caption for a <fieldset>.",
+      "codeExample": "<legend>Personal Info</legend>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "FORM_HELPERS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<datalist>",
+      "description": "Contains a set of <option> elements for input suggestions.",
+      "codeExample": "<datalist id=\"browsers\"><option value=\"Chrome\"></option></datalist>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "INPUT_CONTROLS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<output>",
+      "description": "Represents the result of a calculation.",
+      "codeExample": "<output name=\"result\">42</output>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "INPUT_CONTROLS_HTML",
+      "attributes": ["for","form","name","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-live","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<meter>",
+      "description": "Represents a scalar measurement within a known range.",
+      "codeExample": "<meter value=\"0.6\">60%</meter>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "INPUT_CONTROLS_HTML",
+      "attributes": ["value","min","max","low","high","optimum","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-valuenow","aria-valuemin","aria-valuemax","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<progress>",
+      "description": "Represents the completion progress of a task.",
+      "codeExample": "<progress value=\"50\" max=\"100\"></progress>",
+      "language": "HTML",
+      "category": "FORM_HTML",
+      "sub_category": "INPUT_CONTROLS_HTML",
+      "attributes": ["value","max","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-valuenow","aria-valuemin","aria-valuemax","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<table>",
+      "description": "Represents tabular data arranged in rows and columns.",
+      "codeExample": "<table><tr><td>Cell</td></tr></table>",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "TABLE_STRUCTURE_HTML",
+      "attributes": ["border","summary","width","height","align","bgcolor","cellpadding","cellspacing","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-rowcount","aria-colcount","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<caption>",
+      "description": "Provides a title or description for a table.",
+      "codeExample": "<table><caption>Monthly Sales</caption></table>",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "TABLE_STRUCTURE_HTML",
+      "attributes": ["align","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<thead>",
+      "description": "Groups the header content in a table.",
+      "codeExample": "<thead><tr><th>Header</th></tr></thead>",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "TABLE_GROUPING_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<tbody>",
+      "description": "Groups the body content in a table.",
+      "codeExample": "<tbody><tr><td>Data</td></tr></tbody>",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "TABLE_GROUPING_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<tfoot>",
+      "description": "Groups the footer content in a table.",
+      "codeExample": "<tfoot><tr><td>Total</td></tr></tfoot>",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "TABLE_GROUPING_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<tr>",
+      "description": "Defines a row in a table.",
+      "codeExample": "<tr><td>Row Data</td></tr>",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "ROWS_CELLS_HTML",
+      "attributes": ["align","bgcolor","valign","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-rowindex","aria-selected","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<td>",
+      "description": "Defines a cell in a table.",
+      "codeExample": "<td>Cell</td>",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "ROWS_CELLS_HTML",
+      "attributes": ["colspan","rowspan","headers","abbr","scope","align","valign","bgcolor","width","height","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-colindex","aria-rowindex","aria-selected","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<th>",
+      "description": "Defines a header cell in a table.",
+      "codeExample": "<th scope=\"col\">Header</th>",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "ROWS_CELLS_HTML",
+      "attributes": ["scope","colspan","rowspan","headers","abbr","align","valign","bgcolor","width","height","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-sort","aria-colindex","aria-rowindex","aria-selected","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<colgroup>",
+      "description": "Defines a group of columns within a table.",
+      "codeExample": "<colgroup span=\"2\"></colgroup>",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "ROWS_CELLS_HTML",
+      "attributes": ["span","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<col>",
+      "description": "Defines column properties for a table.",
+      "codeExample": "<col span=\"1\" style=\"background: #eee;\">",
+      "language": "HTML",
+      "category": "TABLE_HTML",
+      "sub_category": "ROWS_CELLS_HTML",
+      "attributes": ["span","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<meta>",
+      "description": "Defines metadata about the HTML document.",
+      "codeExample": "<meta charset=\"UTF-8\">",
+      "language": "HTML",
+      "category": "METADATA_HTML",
+      "sub_category": "METADATA_INFO_HTML",
+      "attributes": ["charset","name","content","http-equiv","scheme","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<link>",
+      "description": "Defines a relationship between the current document and an external resource.",
+      "codeExample": "<link rel=\"stylesheet\" href=\"styles.css\">",
+      "language": "HTML",
+      "category": "METADATA_HTML",
+      "sub_category": "RESOURCE_LINKS_HTML",
+      "attributes": ["rel","href","crossorigin","media","referrerpolicy","sizes","type","as","integrity","disabled","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<title>",
+      "description": "Defines the document's title shown in the browser tab.",
+      "codeExample": "<title>My Website</title>",
+      "language": "HTML",
+      "category": "METADATA_HTML",
+      "sub_category": "METADATA_INFO_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<base>",
+      "description": "Specifies the base URL for all relative URLs in the document.",
+      "codeExample": "<base href=\"https://example.com/\">",
+      "language": "HTML",
+      "category": "METADATA_HTML",
+      "sub_category": "METADATA_INFO_HTML",
+      "attributes": ["href","target","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<style>",
+      "description": "Contains CSS style rules.",
+      "codeExample": "<style>body { background: #fafafa; }</style>",
+      "language": "HTML",
+      "category": "METADATA_HTML",
+      "sub_category": "STYLES_HTML",
+      "attributes": ["media","nonce","title","id","class","style","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<script>",
+      "description": "Embeds or references executable JavaScript code.",
+      "codeExample": "<script src=\"app.js\"></script>",
+      "language": "HTML",
+      "category": "SCRIPTING_HTML",
+      "sub_category": "SCRIPTS_HTML",
+      "attributes": ["src","type","async","defer","crossorigin","integrity","nomodule","referrerpolicy","nonce","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<noscript>",
+      "description": "Provides fallback content when scripting is disabled.",
+      "codeExample": "<noscript>Your browser does not support JavaScript.</noscript>",
+      "language": "HTML",
+      "category": "SCRIPTING_HTML",
+      "sub_category": "SCRIPTS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<template>",
+      "description": "Defines inert HTML content that can be cloned and activated later via JavaScript.",
+      "codeExample": "<template><p>Template content</p></template>",
+      "language": "HTML",
+      "category": "SCRIPTING_HTML",
+      "sub_category": "MODULES_TEMPLATES_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<slot>",
+      "description": "Defines a placeholder inside a Web Component for externally provided markup.",
+      "codeExample": "<slot name=\"header\"></slot>",
+      "language": "HTML",
+      "category": "SCRIPTING_HTML",
+      "sub_category": "MODULES_TEMPLATES_HTML",
+      "attributes": ["name","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<details>",
+      "description": "Creates a disclosure widget that users can open and close.",
+      "codeExample": "<details><summary>More info</summary><p>Hidden content</p></details>",
+      "language": "HTML",
+      "category": "INTERACTIVE_HTML",
+      "sub_category": "INTERACTIVE_ELEMENTS_HTML",
+      "attributes": ["open","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-expanded","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<summary>",
+      "description": "Defines a visible heading for a <details> element.",
+      "codeExample": "<details><summary>More info</summary></details>",
+      "language": "HTML",
+      "category": "INTERACTIVE_HTML",
+      "sub_category": "INTERACTIVE_ELEMENTS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-expanded","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<dialog>",
+      "description": "Represents a modal or non-modal dialog box.",
+      "codeExample": "<dialog open>Dialog content</dialog>",
+      "language": "HTML",
+      "category": "INTERACTIVE_HTML",
+      "sub_category": "INTERACTIVE_ELEMENTS_HTML",
+      "attributes": ["open","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-modal","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<details>",
+      "description": "Creates a disclosure widget that users can open and close.",
+      "codeExample": "<details><summary>More info</summary><p>Hidden content</p></details>",
+      "language": "HTML",
+      "category": "INTERACTIVE_HTML",
+      "sub_category": "INTERACTIVE_ELEMENTS_HTML",
+      "attributes": ["open","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-expanded","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<summary>",
+      "description": "Defines a visible heading for a <details> element.",
+      "codeExample": "<details><summary>More info</summary></details>",
+      "language": "HTML",
+      "category": "INTERACTIVE_HTML",
+      "sub_category": "INTERACTIVE_ELEMENTS_HTML",
+      "attributes": ["id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-expanded","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "<dialog>",
+      "description": "Represents a modal or non-modal dialog box.",
+      "codeExample": "<dialog open>Dialog content</dialog>",
+      "language": "HTML",
+      "category": "INTERACTIVE_HTML",
+      "sub_category": "INTERACTIVE_ELEMENTS_HTML",
+      "attributes": ["open","id","class","style","title","hidden","tabindex","contenteditable","draggable","spellcheck","accesskey","aria-modal","aria-label","aria-labelledby","aria-describedby","aria-hidden","role","data-*"]
+    },
+    {
+      "name": "INTEGER",
+      "description": "Stores whole numbers without decimals.",
+      "codeExample": "CREATE TABLE t (value INTEGER);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "NUMERIC_TYPES_SQL",
+      "attributes": [
+        "UNSIGNED",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "SMALLINT",
+      "description": "Stores smaller-range whole numbers.",
+      "codeExample": "CREATE TABLE t (value SMALLINT);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "NUMERIC_TYPES_SQL",
+      "attributes": [
+        "UNSIGNED",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "BIGINT",
+      "description": "Stores large-range whole numbers.",
+      "codeExample": "CREATE TABLE t (value BIGINT);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "NUMERIC_TYPES_SQL",
+      "attributes": [
+        "UNSIGNED",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "DECIMAL",
+      "description": "Fixed-point numeric type with precision and scale.",
+      "codeExample": "CREATE TABLE t (price DECIMAL(10,2));",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "NUMERIC_TYPES_SQL",
+      "attributes": [
+        "PRECISION",
+        "SCALE",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "NUMERIC",
+      "description": "Fixed-point numeric type equivalent to DECIMAL.",
+      "codeExample": "CREATE TABLE t (amount NUMERIC(8,3));",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "NUMERIC_TYPES_SQL",
+      "attributes": [
+        "PRECISION",
+        "SCALE",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "REAL",
+      "description": "Floating-point number with implementation-defined precision.",
+      "codeExample": "CREATE TABLE t (value REAL);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "NUMERIC_TYPES_SQL",
+      "attributes": [
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "DOUBLE PRECISION",
+      "description": "Double-precision floating-point number.",
+      "codeExample": "CREATE TABLE t (value DOUBLE PRECISION);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "NUMERIC_TYPES_SQL",
+      "attributes": [
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "CHAR",
+      "description": "Fixed-length character string.",
+      "codeExample": "CREATE TABLE t (code CHAR(5));",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "CHARACTER_TYPES_SQL",
+      "attributes": [
+        "LENGTH",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "VARCHAR",
+      "description": "Variable-length character string.",
+      "codeExample": "CREATE TABLE t (name VARCHAR(255));",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "CHARACTER_TYPES_SQL",
+      "attributes": [
+        "LENGTH",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "TEXT",
+      "description": "Large variable-length text storage.",
+      "codeExample": "CREATE TABLE t (description TEXT);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "CHARACTER_TYPES_SQL",
+      "attributes": [
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "BINARY",
+      "description": "Fixed-length binary data.",
+      "codeExample": "CREATE TABLE t (data BINARY(16));",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "BINARY_TYPES_SQL",
+      "attributes": [
+        "LENGTH",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "VARBINARY",
+      "description": "Variable-length binary data.",
+      "codeExample": "CREATE TABLE t (data VARBINARY(255));",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "BINARY_TYPES_SQL",
+      "attributes": [
+        "LENGTH",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "DATE",
+      "description": "Stores calendar dates.",
+      "codeExample": "CREATE TABLE t (created DATE);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "DATE_TIME_TYPES_SQL",
+      "attributes": [
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "TIME",
+      "description": "Stores time of day.",
+      "codeExample": "CREATE TABLE t (event_time TIME);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "DATE_TIME_TYPES_SQL",
+      "attributes": [
+        "WITH TIME ZONE",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "TIMESTAMP",
+      "description": "Stores date and time together.",
+      "codeExample": "CREATE TABLE t (created_at TIMESTAMP);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "DATE_TIME_TYPES_SQL",
+      "attributes": [
+        "WITH TIME ZONE",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "INTERVAL",
+      "description": "Represents a duration of time.",
+      "codeExample": "CREATE TABLE t (duration INTERVAL);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "DATE_TIME_TYPES_SQL",
+      "attributes": [
+        "YEAR",
+        "MONTH",
+        "DAY",
+        "HOUR",
+        "MINUTE",
+        "SECOND"
+      ]
+    },
+    {
+      "name": "BOOLEAN",
+      "description": "Stores TRUE or FALSE values.",
+      "codeExample": "CREATE TABLE t (active BOOLEAN);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "BOOLEAN_SQL",
+      "attributes": [
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "JSON",
+      "description": "Stores JSON-formatted structured data.",
+      "codeExample": "CREATE TABLE t (metadata JSON);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "STRUCTURED_TYPES_SQL",
+      "attributes": [
+        "DEFAULT",
+        "NOT NULL",
+        "CHECK(JSON_VALID(metadata))"
+      ]
+    },
+    {
+      "name": "XML",
+      "description": "Stores XML-formatted structured data.",
+      "codeExample": "CREATE TABLE t (config XML);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "STRUCTURED_TYPES_SQL",
+      "attributes": [
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "ARRAY",
+      "description": "Stores ordered collections of values.",
+      "codeExample": "CREATE TABLE t (tags VARCHAR(50) ARRAY);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "STRUCTURED_TYPES_SQL",
+      "attributes": [
+        "LENGTH",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "GEOMETRY",
+      "description": "Represents spatial geometric shapes.",
+      "codeExample": "CREATE TABLE t (shape GEOMETRY);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "STRUCTURED_TYPES_SQL",
+      "attributes": [
+        "SRID",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "GEOGRAPHY",
+      "description": "Represents geospatial coordinates on Earth.",
+      "codeExample": "CREATE TABLE t (location GEOGRAPHY);",
+      "language": "SQL",
+      "category": "DATA_TYPES_SQL",
+      "sub_category": "STRUCTURED_TYPES_SQL",
+      "attributes": [
+        "SRID",
+        "DEFAULT",
+        "NOT NULL"
+      ]
+    },
+    {
+      "name": "CREATE",
+      "description": "Defines a new database object such as a table, view, or index.",
+      "codeExample": "CREATE TABLE users (id INTEGER, name VARCHAR(50));",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "DATA_DEFINITION_DDL_SQL",
+      "attributes": [
+        "TABLE",
+        "VIEW",
+        "INDEX",
+        "DATABASE"
+      ]
+    },
+    {
+      "name": "ALTER",
+      "description": "Modifies an existing database object.",
+      "codeExample": "ALTER TABLE users ADD COLUMN email VARCHAR(255);",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "DATA_DEFINITION_DDL_SQL",
+      "attributes": [
+        "TABLE",
+        "COLUMN"
+      ]
+    },
+    {
+      "name": "DROP",
+      "description": "Deletes a database object.",
+      "codeExample": "DROP TABLE users;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "DATA_DEFINITION_DDL_SQL",
+      "attributes": [
+        "TABLE",
+        "VIEW",
+        "INDEX",
+        "DATABASE"
+      ]
+    },
+    {
+      "name": "TRUNCATE",
+      "description": "Removes all rows from a table quickly.",
+      "codeExample": "TRUNCATE TABLE users;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "DATA_DEFINITION_DDL_SQL",
+      "attributes": [
+        "TABLE"
+      ]
+    },
+    {
+      "name": "SELECT",
+      "description": "Retrieves data from one or more tables.",
+      "codeExample": "SELECT * FROM users;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "DATA_MANIPULATION_DML_SQL",
+      "attributes": [
+        "DISTINCT",
+        "TOP",
+        "ALL"
+      ]
+    },
+    {
+      "name": "INSERT",
+      "description": "Adds new rows to a table.",
+      "codeExample": "INSERT INTO users (name) VALUES ('Amelia');",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "DATA_MANIPULATION_DML_SQL",
+      "attributes": [
+        "INTO",
+        "VALUES",
+        "DEFAULT VALUES"
+      ]
+    },
+    {
+      "name": "UPDATE",
+      "description": "Modifies existing rows in a table.",
+      "codeExample": "UPDATE users SET active = TRUE WHERE id = 1;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "DATA_MANIPULATION_DML_SQL",
+      "attributes": [
+        "SET",
+        "WHERE"
+      ]
+    },
+    {
+      "name": "DELETE",
+      "description": "Removes rows from a table.",
+      "codeExample": "DELETE FROM users WHERE id = 1;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "DATA_MANIPULATION_DML_SQL",
+      "attributes": [
+        "FROM",
+        "WHERE"
+      ]
+    },
+    {
+      "name": "WHERE",
+      "description": "Filters rows based on a condition.",
+      "codeExample": "SELECT * FROM users WHERE active = TRUE;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "QUERY_CLAUSES_SQL",
+      "attributes": [
+        "AND",
+        "OR",
+        "NOT"
+      ]
+    },
+    {
+      "name": "GROUP BY",
+      "description": "Groups rows for aggregate calculations.",
+      "codeExample": "SELECT active, COUNT(*) FROM users GROUP BY active;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "QUERY_CLAUSES_SQL",
+      "attributes": [
+        "HAVING"
+      ]
+    },
+    {
+      "name": "HAVING",
+      "description": "Filters groups created by GROUP BY.",
+      "codeExample": "SELECT active, COUNT(*) FROM users GROUP BY active HAVING COUNT(*) > 10;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "QUERY_CLAUSES_SQL",
+      "attributes": [
+        "AND",
+        "OR"
+      ]
+    },
+    {
+      "name": "ORDER BY",
+      "description": "Sorts query results.",
+      "codeExample": "SELECT * FROM users ORDER BY name ASC;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "QUERY_CLAUSES_SQL",
+      "attributes": [
+        "ASC",
+        "DESC"
+      ]
+    },
+    {
+      "name": "LIMIT",
+      "description": "Restricts the number of returned rows.",
+      "codeExample": "SELECT * FROM users LIMIT 10;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "QUERY_CLAUSES_SQL",
+      "attributes": [
+        "OFFSET"
+      ]
+    },
+    {
+      "name": "JOIN",
+      "description": "Combines rows from multiple tables.",
+      "codeExample": "SELECT * FROM users JOIN orders ON users.id = orders.user_id;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "JOIN_KEYWORDS_SQL",
+      "attributes": [
+        "INNER",
+        "LEFT",
+        "RIGHT",
+        "FULL",
+        "ON",
+        "USING"
+      ]
+    },
+    {
+      "name": "CASE",
+      "description": "Conditional logic inside queries.",
+      "codeExample": "SELECT CASE WHEN active THEN 'yes' ELSE 'no' END FROM users;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "CONTROL_LOGIC_SQL",
+      "attributes": [
+        "WHEN",
+        "THEN",
+        "ELSE",
+        "END"
+      ]
+    },
+    {
+      "name": "BEGIN",
+      "description": "Starts a transaction.",
+      "codeExample": "BEGIN TRANSACTION;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "TRANSACTION_SQL",
+      "attributes": [
+        "TRANSACTION"
+      ]
+    },
+    {
+      "name": "COMMIT",
+      "description": "Saves all changes in a transaction.",
+      "codeExample": "COMMIT;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "TRANSACTION_SQL",
+      "attributes": []
+    },
+    {
+      "name": "ROLLBACK",
+      "description": "Reverts all changes in a transaction.",
+      "codeExample": "ROLLBACK;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "TRANSACTION_SQL",
+      "attributes": []
+    },
+    {
+      "name": "GRANT",
+      "description": "Gives permissions to a user or role.",
+      "codeExample": "GRANT SELECT ON users TO analyst;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "ACCESS_CONTROL_SQL",
+      "attributes": [
+        "SELECT",
+        "INSERT",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "name": "REVOKE",
+      "description": "Removes permissions from a user or role.",
+      "codeExample": "REVOKE SELECT ON users FROM analyst;",
+      "language": "SQL",
+      "category": "KEYWORDS_SQL",
+      "sub_category": "ACCESS_CONTROL_SQL",
+      "attributes": [
+        "SELECT",
+        "INSERT",
+        "UPDATE",
+        "DELETE"
+      ]
+    },
+    {
+      "name": "UPPER",
+      "description": "Converts a string to uppercase.",
+      "codeExample": "SELECT UPPER(name) FROM users;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": [
+        "COLLATE"
+      ]
+    },
+    {
+      "name": "LOWER",
+      "description": "Converts a string to lowercase.",
+      "codeExample": "SELECT LOWER(name) FROM users;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": [
+        "COLLATE"
+      ]
+    },
+    {
+      "name": "SUBSTRING",
+      "description": "Extracts part of a string.",
+      "codeExample": "SELECT SUBSTRING(name FROM 1 FOR 3) FROM users;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": [
+        "FROM",
+        "FOR"
+      ]
+    },
+    {
+      "name": "TRIM",
+      "description": "Removes leading or trailing whitespace.",
+      "codeExample": "SELECT TRIM(name) FROM users;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": [
+        "LEADING",
+        "TRAILING",
+        "BOTH"
+      ]
+    },
+    {
+      "name": "ABS",
+      "description": "Returns the absolute value of a number.",
+      "codeExample": "SELECT ABS(-5);",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "ROUND",
+      "description": "Rounds a number to a specified precision.",
+      "codeExample": "SELECT ROUND(12.345, 2);",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": [
+        "PRECISION"
+      ]
+    },
+    {
+      "name": "CURRENT_DATE",
+      "description": "Returns the current date.",
+      "codeExample": "SELECT CURRENT_DATE;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "CURRENT_TIMESTAMP",
+      "description": "Returns the current date and time.",
+      "codeExample": "SELECT CURRENT_TIMESTAMP;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": [
+        "WITH TIME ZONE"
+      ]
+    },
+    {
+      "name": "EXTRACT",
+      "description": "Extracts a field from a date or time value.",
+      "codeExample": "SELECT EXTRACT(YEAR FROM CURRENT_DATE);",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": [
+        "YEAR",
+        "MONTH",
+        "DAY",
+        "HOUR",
+        "MINUTE",
+        "SECOND"
+      ]
+    },
+    {
+      "name": "CAST",
+      "description": "Converts a value to a specified data type.",
+      "codeExample": "SELECT CAST('123' AS INTEGER);",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SCALAR_FUNCTIONS_SQL",
+      "attributes": [
+        "AS"
+      ]
+    },
+    {
+      "name": "COUNT",
+      "description": "Counts rows or non-null values.",
+      "codeExample": "SELECT COUNT(*) FROM users;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "AGGREGATE_FUNCTIONS_SQL",
+      "attributes": [
+        "DISTINCT"
+      ]
+    },
+    {
+      "name": "SUM",
+      "description": "Calculates the total of numeric values.",
+      "codeExample": "SELECT SUM(amount) FROM payments;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "AGGREGATE_FUNCTIONS_SQL",
+      "attributes": [
+        "DISTINCT"
+      ]
+    },
+    {
+      "name": "AVG",
+      "description": "Calculates the average of numeric values.",
+      "codeExample": "SELECT AVG(score) FROM results;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "AGGREGATE_FUNCTIONS_SQL",
+      "attributes": [
+        "DISTINCT"
+      ]
+    },
+    {
+      "name": "MIN",
+      "description": "Returns the smallest value.",
+      "codeExample": "SELECT MIN(price) FROM products;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "AGGREGATE_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "MAX",
+      "description": "Returns the largest value.",
+      "codeExample": "SELECT MAX(price) FROM products;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "AGGREGATE_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "ROW_NUMBER",
+      "description": "Assigns a sequential number to rows in a window.",
+      "codeExample": "SELECT ROW_NUMBER() OVER (ORDER BY id) FROM users;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "WINDOW_ANALYTIC_FUNCTIONS_SQL",
+      "attributes": [
+        "OVER",
+        "PARTITION BY",
+        "ORDER BY"
+      ]
+    },
+    {
+      "name": "RANK",
+      "description": "Assigns ranking with gaps for ties.",
+      "codeExample": "SELECT RANK() OVER (ORDER BY score DESC) FROM results;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "WINDOW_ANALYTIC_FUNCTIONS_SQL",
+      "attributes": [
+        "OVER",
+        "PARTITION BY",
+        "ORDER BY"
+      ]
+    },
+    {
+      "name": "DENSE_RANK",
+      "description": "Assigns ranking without gaps for ties.",
+      "codeExample": "SELECT DENSE_RANK() OVER (ORDER BY score DESC) FROM results;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "WINDOW_ANALYTIC_FUNCTIONS_SQL",
+      "attributes": [
+        "OVER",
+        "PARTITION BY",
+        "ORDER BY"
+      ]
+    },
+    {
+      "name": "LEAD",
+      "description": "Returns the next row's value in a window.",
+      "codeExample": "SELECT LEAD(score) OVER (ORDER BY id) FROM results;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "WINDOW_ANALYTIC_FUNCTIONS_SQL",
+      "attributes": [
+        "OVER",
+        "PARTITION BY",
+        "ORDER BY",
+        "OFFSET"
+      ]
+    },
+    {
+      "name": "LAG",
+      "description": "Returns the previous row's value in a window.",
+      "codeExample": "SELECT LAG(score) OVER (ORDER BY id) FROM results;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "WINDOW_ANALYTIC_FUNCTIONS_SQL",
+      "attributes": [
+        "OVER",
+        "PARTITION BY",
+        "ORDER BY",
+        "OFFSET"
+      ]
+    },
+    {
+      "name": "COALESCE",
+      "description": "Returns the first non-null value.",
+      "codeExample": "SELECT COALESCE(email, 'none') FROM users;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "CONDITIONAL_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "NULLIF",
+      "description": "Returns NULL if two expressions are equal.",
+      "codeExample": "SELECT NULLIF(score, 0);",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "CONDITIONAL_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "JSON_VALUE",
+      "description": "Extracts a scalar value from JSON.",
+      "codeExample": "SELECT JSON_VALUE(metadata, '$.name') FROM users;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "JSON_FUNCTIONS_SQL",
+      "attributes": [
+        "PATH",
+        "RETURNING"
+      ]
+    },
+    {
+      "name": "JSON_QUERY",
+      "description": "Extracts an object or array from JSON.",
+      "codeExample": "SELECT JSON_QUERY(metadata, '$.items') FROM orders;",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "JSON_FUNCTIONS_SQL",
+      "attributes": [
+        "PATH"
+      ]
+    },
+    {
+      "name": "JSON_EXISTS",
+      "description": "Checks whether a JSON path exists.",
+      "codeExample": "SELECT JSON_EXISTS(metadata, '$.active');",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "JSON_FUNCTIONS_SQL",
+      "attributes": [
+        "PATH"
+      ]
+    },
+    {
+      "name": "XMLQUERY",
+      "description": "Evaluates an XQuery expression.",
+      "codeExample": "SELECT XMLQUERY('/root/item' PASSING config);",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "XML_FUNCTIONS_SQL",
+      "attributes": [
+        "PASSING",
+        "RETURNING"
+      ]
+    },
+    {
+      "name": "EXTRACT",
+      "description": "Extracts values from XML using XPath.",
+      "codeExample": "SELECT EXTRACT(config, '/root/item');",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "XML_FUNCTIONS_SQL",
+      "attributes": [
+        "PATH"
+      ]
+    },
+    {
+      "name": "ST_Distance",
+      "description": "Calculates distance between two spatial objects.",
+      "codeExample": "SELECT ST_Distance(location1, location2);",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SPATIAL_FUNCTIONS_SQL",
+      "attributes": [
+        "SRID"
+      ]
+    },
+    {
+      "name": "ST_Contains",
+      "description": "Checks whether one geometry contains another.",
+      "codeExample": "SELECT ST_Contains(area, point);",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SPATIAL_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "ST_Intersects",
+      "description": "Checks whether two geometries intersect.",
+      "codeExample": "SELECT ST_Intersects(a, b);",
+      "language": "SQL",
+      "category": "FUNCTIONS_SQL",
+      "sub_category": "SPATIAL_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "CURRENT_USER",
+      "description": "Returns the name of the current SQL user.",
+      "codeExample": "SELECT CURRENT_USER;",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "SYSTEM_INFORMATION_SQL",
+      "attributes": []
+    },
+    {
+      "name": "SESSION_USER",
+      "description": "Returns the user name for the current session.",
+      "codeExample": "SELECT SESSION_USER;",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "SYSTEM_INFORMATION_SQL",
+      "attributes": []
+    },
+    {
+      "name": "SYSTEM_USER",
+      "description": "Returns the operating system user associated with the session.",
+      "codeExample": "SELECT SYSTEM_USER;",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "SYSTEM_INFORMATION_SQL",
+      "attributes": []
+    },
+    {
+      "name": "CURRENT_SCHEMA",
+      "description": "Returns the active schema for the current session.",
+      "codeExample": "SELECT CURRENT_SCHEMA;",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "CONNECTION_SESSION_INFORMATION_SQL",
+      "attributes": []
+    },
+    {
+      "name": "CURRENT_CATALOG",
+      "description": "Returns the current catalog (database) in use.",
+      "codeExample": "SELECT CURRENT_CATALOG;",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "CONNECTION_SESSION_INFORMATION_SQL",
+      "attributes": []
+    },
+    {
+      "name": "CURRENT_DATABASE",
+      "description": "Returns the name of the currently connected database.",
+      "codeExample": "SELECT CURRENT_DATABASE();",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "CONNECTION_SESSION_INFORMATION_SQL",
+      "attributes": []
+    },
+    {
+      "name": "VERSION",
+      "description": "Returns the SQL server version string.",
+      "codeExample": "SELECT VERSION();",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "ENVIRONMENT_METADATA_SQL",
+      "attributes": []
+    },
+    {
+      "name": "DATABASE",
+      "description": "Returns the name of the current database.",
+      "codeExample": "SELECT DATABASE();",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "ENVIRONMENT_METADATA_SQL",
+      "attributes": []
+    },
+    {
+      "name": "SCHEMA",
+      "description": "Returns the name of the current schema.",
+      "codeExample": "SELECT SCHEMA();",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "ENVIRONMENT_METADATA_SQL",
+      "attributes": []
+    },
+    {
+      "name": "SQLSTATE",
+      "description": "Returns the SQLSTATE error code for the last operation.",
+      "codeExample": "SELECT SQLSTATE;",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "ERROR_DIAGNOSTIC_SQL",
+      "attributes": []
+    },
+    {
+      "name": "SQLCODE",
+      "description": "Returns the numeric error code for the last SQL operation.",
+      "codeExample": "SELECT SQLCODE;",
+      "language": "SQL",
+      "category": "SERVER_FUNCTIONS_SQL",
+      "sub_category": "ERROR_DIAGNOSTIC_SQL",
+      "attributes": []
+    },
+    {
+      "name": "GRANT",
+      "description": "Assigns privileges to a user or role.",
+      "codeExample": "GRANT SELECT, INSERT ON users TO analyst;",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "PRIVILEGE_MANAGEMENT_SQL",
+      "attributes": [
+        "SELECT",
+        "INSERT",
+        "UPDATE",
+        "DELETE",
+        "WITH GRANT OPTION"
+      ]
+    },
+    {
+      "name": "REVOKE",
+      "description": "Removes privileges from a user or role.",
+      "codeExample": "REVOKE SELECT ON users FROM analyst;",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "PRIVILEGE_MANAGEMENT_SQL",
+      "attributes": [
+        "SELECT",
+        "INSERT",
+        "UPDATE",
+        "DELETE",
+        "CASCADE"
+      ]
+    },
+    {
+      "name": "CREATE USER",
+      "description": "Creates a new database user.",
+      "codeExample": "CREATE USER amelia IDENTIFIED BY 'password';",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "ROLE_USER_MANAGEMENT_SQL",
+      "attributes": [
+        "IDENTIFIED BY",
+        "DEFAULT ROLE"
+      ]
+    },
+    {
+      "name": "ALTER USER",
+      "description": "Modifies an existing database user.",
+      "codeExample": "ALTER USER amelia IDENTIFIED BY 'newpass';",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "ROLE_USER_MANAGEMENT_SQL",
+      "attributes": [
+        "IDENTIFIED BY",
+        "ACCOUNT LOCK",
+        "ACCOUNT UNLOCK"
+      ]
+    },
+    {
+      "name": "DROP USER",
+      "description": "Deletes a database user.",
+      "codeExample": "DROP USER amelia;",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "ROLE_USER_MANAGEMENT_SQL",
+      "attributes": [
+        "CASCADE"
+      ]
+    },
+    {
+      "name": "CREATE ROLE",
+      "description": "Creates a new database role.",
+      "codeExample": "CREATE ROLE reporting_role;",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "ROLE_USER_MANAGEMENT_SQL",
+      "attributes": []
+    },
+    {
+      "name": "SET ROLE",
+      "description": "Activates a role for the current session.",
+      "codeExample": "SET ROLE reporting_role;",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "ROLE_USER_MANAGEMENT_SQL",
+      "attributes": []
+    },
+    {
+      "name": "HAS_PRIVILEGE",
+      "description": "Checks whether a user or role has a specific privilege.",
+      "codeExample": "SELECT HAS_PRIVILEGE('amelia', 'SELECT', 'users');",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "SECURITY_FUNCTIONS_SQL",
+      "attributes": [
+        "ON",
+        "FOR"
+      ]
+    },
+    {
+      "name": "IS_MEMBER",
+      "description": "Checks whether a user belongs to a role.",
+      "codeExample": "SELECT IS_MEMBER('reporting_role');",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "SECURITY_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "CURRENT_ROLE",
+      "description": "Returns the active role for the current session.",
+      "codeExample": "SELECT CURRENT_ROLE;",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "SECURITY_FUNCTIONS_SQL",
+      "attributes": []
+    },
+    {
+      "name": "SESSION_USER",
+      "description": "Returns the authenticated user for the session.",
+      "codeExample": "SELECT SESSION_USER;",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "AUTHENTICATION_AUTHORIZATION_SQL",
+      "attributes": []
+    },
+    {
+      "name": "AUTHORIZATION",
+      "description": "Sets or retrieves authorization identifiers.",
+      "codeExample": "SET SESSION AUTHORIZATION 'amelia';",
+      "language": "SQL",
+      "category": "ACCESS_FUNCTIONS_SQL",
+      "sub_category": "AUTHENTICATION_AUTHORIZATION_SQL",
+      "attributes": [
+        "SET",
+        "SESSION"
+      ]
+    },
+
+  {
+    "name": "accent-color",
+    "description": "Controls the accent color behavior of an element.",
+    "codeExample": "accent-color: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "UI_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "align-content",
+    "description": "Controls the align content behavior of an element.",
+    "codeExample": "align-content: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "align-items",
+    "description": "Controls the align items behavior of an element.",
+    "codeExample": "align-items: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "align-self",
+    "description": "Controls the align self behavior of an element.",
+    "codeExample": "align-self: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "alignment-baseline",
+    "description": "Controls the alignment baseline behavior of an element.",
+    "codeExample": "alignment-baseline: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "all",
+    "description": "Controls the all behavior of an element.",
+    "codeExample": "all: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "anchor-name",
+    "description": "Controls the anchor name behavior of an element.",
+    "codeExample": "anchor-name: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "anchor-scope",
+    "description": "Controls the anchor scope behavior of an element.",
+    "codeExample": "anchor-scope: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "animation-composition",
+    "description": "Controls the animation composition behavior of an element.",
+    "codeExample": "animation-composition: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-delay",
+    "description": "Controls the animation delay behavior of an element.",
+    "codeExample": "animation-delay: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-direction",
+    "description": "Controls the animation direction behavior of an element.",
+    "codeExample": "animation-direction: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-duration",
+    "description": "Controls the animation duration behavior of an element.",
+    "codeExample": "animation-duration: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-fill-mode",
+    "description": "Controls the animation fill mode behavior of an element.",
+    "codeExample": "animation-fill-mode: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-iteration-count",
+    "description": "Controls the animation iteration count behavior of an element.",
+    "codeExample": "animation-iteration-count: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-name",
+    "description": "Controls the animation name behavior of an element.",
+    "codeExample": "animation-name: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-play-state",
+    "description": "Controls the animation play state behavior of an element.",
+    "codeExample": "animation-play-state: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-range",
+    "description": "Controls the animation range behavior of an element.",
+    "codeExample": "animation-range: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-timeline",
+    "description": "Controls the animation timeline behavior of an element.",
+    "codeExample": "animation-timeline: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation-timing-function",
+    "description": "Controls the animation timing function behavior of an element.",
+    "codeExample": "animation-timing-function: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "animation",
+    "description": "Applies animations to an element.",
+    "codeExample": "animation: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "KEYFRAME_ANIMATION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "appearance",
+    "description": "Controls the appearance behavior of an element.",
+    "codeExample": "appearance: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "UI_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "aspect-ratio",
+    "description": "Controls the aspect ratio behavior of an element.",
+    "codeExample": "aspect-ratio: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "backdrop-filter",
+    "description": "Controls the backdrop filter behavior of an element.",
+    "codeExample": "backdrop-filter: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "EFFECTS_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "backface-visibility",
+    "description": "Controls the backface visibility behavior of an element.",
+    "codeExample": "backface-visibility: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "background-attachment",
+    "description": "Sets the attachment of an element background.",
+    "codeExample": "background-attachment: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BACKGROUND_CSS",
+    "attributes": [
+      "colors",
+      "url()",
+      "linear-gradient()",
+      "cover",
+      "contain",
+      "no-repeat",
+      "repeat"
+    ]
+  },
+  {
+    "name": "background-blend-mode",
+    "description": "Sets the blend mode of an element background.",
+    "codeExample": "background-blend-mode: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "url()",
+      "linear-gradient()",
+      "cover",
+      "contain",
+      "no-repeat",
+      "repeat"
+    ]
+  },
+  {
+    "name": "background-clip",
+    "description": "Sets the clip of an element background.",
+    "codeExample": "background-clip: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BACKGROUND_CSS",
+    "attributes": [
+      "colors",
+      "url()",
+      "linear-gradient()",
+      "cover",
+      "contain",
+      "no-repeat",
+      "repeat"
+    ]
+  },
+  {
+    "name": "background-color",
+    "description": "Sets the color of an element background.",
+    "codeExample": "background-color: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BACKGROUND_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "background-image",
+    "description": "Sets the image of an element background.",
+    "codeExample": "background-image: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BACKGROUND_CSS",
+    "attributes": [
+      "colors",
+      "url()",
+      "linear-gradient()",
+      "cover",
+      "contain",
+      "no-repeat",
+      "repeat"
+    ]
+  },
+  {
+    "name": "background-origin",
+    "description": "Sets the origin of an element background.",
+    "codeExample": "background-origin: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BACKGROUND_CSS",
+    "attributes": [
+      "colors",
+      "url()",
+      "linear-gradient()",
+      "cover",
+      "contain",
+      "no-repeat",
+      "repeat"
+    ]
+  },
+  {
+    "name": "background-position",
+    "description": "Sets the position of an element background.",
+    "codeExample": "background-position: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BACKGROUND_CSS",
+    "attributes": [
+      "colors",
+      "url()",
+      "linear-gradient()",
+      "cover",
+      "contain",
+      "no-repeat",
+      "repeat"
+    ]
+  },
+  {
+    "name": "background-repeat",
+    "description": "Sets the repeat of an element background.",
+    "codeExample": "background-repeat: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BACKGROUND_CSS",
+    "attributes": [
+      "colors",
+      "url()",
+      "linear-gradient()",
+      "cover",
+      "contain",
+      "no-repeat",
+      "repeat"
+    ]
+  },
+  {
+    "name": "background-size",
+    "description": "Sets the size of an element background.",
+    "codeExample": "background-size: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BACKGROUND_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "background",
+    "description": "Controls the background behavior of an element.",
+    "codeExample": "background: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BACKGROUND_CSS",
+    "attributes": [
+      "colors",
+      "url()",
+      "linear-gradient()",
+      "cover",
+      "contain",
+      "no-repeat",
+      "repeat"
+    ]
+  },
+  {
+    "name": "block-size",
+    "description": "Controls the block size behavior of an element.",
+    "codeExample": "block-size: value;",
+    "language": "CSS",
+    "category": "SIZING_CSS",
+    "sub_category": "DIMENSIONS_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border",
+    "description": "Controls the border behavior of an element.",
+    "codeExample": "border: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-block",
+    "description": "Controls the block of an element border.",
+    "codeExample": "border-block: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-block-color",
+    "description": "Controls the block color of an element border.",
+    "codeExample": "border-block-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-block-end",
+    "description": "Controls the block end of an element border.",
+    "codeExample": "border-block-end: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-block-end-color",
+    "description": "Controls the block end color of an element border.",
+    "codeExample": "border-block-end-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-block-end-style",
+    "description": "Controls the block end style of an element border.",
+    "codeExample": "border-block-end-style: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-block-end-width",
+    "description": "Controls the block end width of an element border.",
+    "codeExample": "border-block-end-width: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border-block-start",
+    "description": "Controls the block start of an element border.",
+    "codeExample": "border-block-start: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-block-start-color",
+    "description": "Controls the block start color of an element border.",
+    "codeExample": "border-block-start-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-block-start-style",
+    "description": "Controls the block start style of an element border.",
+    "codeExample": "border-block-start-style: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-block-start-width",
+    "description": "Controls the block start width of an element border.",
+    "codeExample": "border-block-start-width: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border-bottom",
+    "description": "Controls the bottom of an element border.",
+    "codeExample": "border-bottom: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-bottom-color",
+    "description": "Controls the bottom color of an element border.",
+    "codeExample": "border-bottom-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-bottom-left-radius",
+    "description": "Controls the bottom left radius of an element border.",
+    "codeExample": "border-bottom-left-radius: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-bottom-right-radius",
+    "description": "Controls the bottom right radius of an element border.",
+    "codeExample": "border-bottom-right-radius: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-bottom-style",
+    "description": "Controls the bottom style of an element border.",
+    "codeExample": "border-bottom-style: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-bottom-width",
+    "description": "Controls the bottom width of an element border.",
+    "codeExample": "border-bottom-width: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border-collapse",
+    "description": "Controls the collapse of an element border.",
+    "codeExample": "border-collapse: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-color",
+    "description": "Controls the color of an element border.",
+    "codeExample": "border-color: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-image",
+    "description": "Controls the image of an element border.",
+    "codeExample": "border-image: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-image-outset",
+    "description": "Controls the image outset of an element border.",
+    "codeExample": "border-image-outset: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-image-repeat",
+    "description": "Controls the image repeat of an element border.",
+    "codeExample": "border-image-repeat: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-image-slice",
+    "description": "Controls the image slice of an element border.",
+    "codeExample": "border-image-slice: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-image-source",
+    "description": "Controls the image source of an element border.",
+    "codeExample": "border-image-source: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-image-width",
+    "description": "Controls the image width of an element border.",
+    "codeExample": "border-image-width: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border-inline",
+    "description": "Controls the inline of an element border.",
+    "codeExample": "border-inline: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-inline-color",
+    "description": "Controls the inline color of an element border.",
+    "codeExample": "border-inline-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-inline-end",
+    "description": "Controls the inline end of an element border.",
+    "codeExample": "border-inline-end: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-inline-end-color",
+    "description": "Controls the inline end color of an element border.",
+    "codeExample": "border-inline-end-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-inline-end-style",
+    "description": "Controls the inline end style of an element border.",
+    "codeExample": "border-inline-end-style: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-inline-end-width",
+    "description": "Controls the inline end width of an element border.",
+    "codeExample": "border-inline-end-width: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border-inline-start",
+    "description": "Controls the inline start of an element border.",
+    "codeExample": "border-inline-start: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-inline-start-color",
+    "description": "Controls the inline start color of an element border.",
+    "codeExample": "border-inline-start-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-inline-start-style",
+    "description": "Controls the inline start style of an element border.",
+    "codeExample": "border-inline-start-style: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-inline-start-width",
+    "description": "Controls the inline start width of an element border.",
+    "codeExample": "border-inline-start-width: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border-left",
+    "description": "Controls the left of an element border.",
+    "codeExample": "border-left: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-left-color",
+    "description": "Controls the left color of an element border.",
+    "codeExample": "border-left-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-left-style",
+    "description": "Controls the left style of an element border.",
+    "codeExample": "border-left-style: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-left-width",
+    "description": "Controls the left width of an element border.",
+    "codeExample": "border-left-width: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border-radius",
+    "description": "Controls the radius of an element border.",
+    "codeExample": "border-radius: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-right",
+    "description": "Controls the right of an element border.",
+    "codeExample": "border-right: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-right-color",
+    "description": "Controls the right color of an element border.",
+    "codeExample": "border-right-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-right-style",
+    "description": "Controls the right style of an element border.",
+    "codeExample": "border-right-style: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-right-width",
+    "description": "Controls the right width of an element border.",
+    "codeExample": "border-right-width: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border-spacing",
+    "description": "Controls the spacing of an element border.",
+    "codeExample": "border-spacing: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-style",
+    "description": "Controls the style of an element border.",
+    "codeExample": "border-style: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-top",
+    "description": "Controls the top of an element border.",
+    "codeExample": "border-top: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-top-color",
+    "description": "Controls the top color of an element border.",
+    "codeExample": "border-top-color: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "border-top-left-radius",
+    "description": "Controls the top left radius of an element border.",
+    "codeExample": "border-top-left-radius: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-top-right-radius",
+    "description": "Controls the top right radius of an element border.",
+    "codeExample": "border-top-right-radius: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-top-style",
+    "description": "Controls the top style of an element border.",
+    "codeExample": "border-top-style: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "border-top-width",
+    "description": "Controls the top width of an element border.",
+    "codeExample": "border-top-width: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "border-width",
+    "description": "Controls the width of an element border.",
+    "codeExample": "border-width: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "bottom",
+    "description": "Controls the bottom behavior of an element.",
+    "codeExample": "bottom: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "POSITIONING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "box-shadow",
+    "description": "Controls the box shadow behavior of an element.",
+    "codeExample": "box-shadow: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "box-sizing",
+    "description": "Controls the box sizing behavior of an element.",
+    "codeExample": "box-sizing: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "break-after",
+    "description": "Controls the break after behavior of an element.",
+    "codeExample": "break-after: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "break-before",
+    "description": "Controls the break before behavior of an element.",
+    "codeExample": "break-before: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "break-inside",
+    "description": "Controls the break inside behavior of an element.",
+    "codeExample": "break-inside: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "caption-side",
+    "description": "Controls the caption side behavior of an element.",
+    "codeExample": "caption-side: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "caret-color",
+    "description": "Controls the caret color behavior of an element.",
+    "codeExample": "caret-color: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "UI_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "clear",
+    "description": "Controls the clear behavior of an element.",
+    "codeExample": "clear: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "clip-path",
+    "description": "Controls the clip path behavior of an element.",
+    "codeExample": "clip-path: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "EFFECTS_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "clip",
+    "description": "Controls the clip behavior of an element.",
+    "codeExample": "clip: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "EFFECTS_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "color",
+    "description": "Sets the text color of an element.",
+    "codeExample": "color: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "COLOR_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "color-scheme",
+    "description": "Controls the color scheme behavior of an element.",
+    "codeExample": "color-scheme: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "UI_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "column-count",
+    "description": "Controls the column count behavior of an element.",
+    "codeExample": "column-count: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "column-gap",
+    "description": "Controls the column gap behavior of an element.",
+    "codeExample": "column-gap: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "GAP_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "column-rule",
+    "description": "Controls the column rule behavior of an element.",
+    "codeExample": "column-rule: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "column-span",
+    "description": "Controls the column span behavior of an element.",
+    "codeExample": "column-span: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "columns",
+    "description": "Controls the columns behavior of an element.",
+    "codeExample": "columns: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "contain",
+    "description": "Controls the contain behavior of an element.",
+    "codeExample": "contain: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "content",
+    "description": "Controls the content behavior of an element.",
+    "codeExample": "content: value;",
+    "language": "CSS",
+    "category": "CONTENT_CSS",
+    "sub_category": "GENERATED_CONTENT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "counter-increment",
+    "description": "Controls the counter increment behavior of an element.",
+    "codeExample": "counter-increment: value;",
+    "language": "CSS",
+    "category": "CONTENT_CSS",
+    "sub_category": "COUNTERS_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "counter-reset",
+    "description": "Controls the counter reset behavior of an element.",
+    "codeExample": "counter-reset: value;",
+    "language": "CSS",
+    "category": "CONTENT_CSS",
+    "sub_category": "COUNTERS_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "cursor",
+    "description": "Controls the cursor behavior of an element.",
+    "codeExample": "cursor: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "UI_CSS",
+    "attributes": [
+      "pointer",
+      "default",
+      "text",
+      "move",
+      "not-allowed"
+    ]
+  },
+  {
+    "name": "direction",
+    "description": "Controls the direction behavior of an element.",
+    "codeExample": "direction: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "display",
+    "description": "Controls how an element is rendered and participates in layout.",
+    "codeExample": "display: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "block",
+      "inline",
+      "inline-block",
+      "flex",
+      "grid",
+      "none",
+      "table"
+    ]
+  },
+  {
+    "name": "filter",
+    "description": "Controls the filter behavior of an element.",
+    "codeExample": "filter: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "EFFECTS_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "flex",
+    "description": "Defines how a flex item grows and shrinks.",
+    "codeExample": "flex: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "number",
+      "auto",
+      "none",
+      "row",
+      "column",
+      "wrap",
+      "nowrap"
+    ]
+  },
+  {
+    "name": "flex-basis",
+    "description": "Controls the flex basis behavior of an element.",
+    "codeExample": "flex-basis: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "number",
+      "auto",
+      "none",
+      "row",
+      "column",
+      "wrap",
+      "nowrap"
+    ]
+  },
+  {
+    "name": "flex-direction",
+    "description": "Controls the flex direction behavior of an element.",
+    "codeExample": "flex-direction: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "number",
+      "auto",
+      "none",
+      "row",
+      "column",
+      "wrap",
+      "nowrap"
+    ]
+  },
+  {
+    "name": "flex-flow",
+    "description": "Controls the flex flow behavior of an element.",
+    "codeExample": "flex-flow: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "number",
+      "auto",
+      "none",
+      "row",
+      "column",
+      "wrap",
+      "nowrap"
+    ]
+  },
+  {
+    "name": "flex-grow",
+    "description": "Controls the flex grow behavior of an element.",
+    "codeExample": "flex-grow: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "number",
+      "auto",
+      "none",
+      "row",
+      "column",
+      "wrap",
+      "nowrap"
+    ]
+  },
+  {
+    "name": "flex-shrink",
+    "description": "Controls the flex shrink behavior of an element.",
+    "codeExample": "flex-shrink: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "number",
+      "auto",
+      "none",
+      "row",
+      "column",
+      "wrap",
+      "nowrap"
+    ]
+  },
+  {
+    "name": "flex-wrap",
+    "description": "Controls the flex wrap behavior of an element.",
+    "codeExample": "flex-wrap: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "number",
+      "auto",
+      "none",
+      "row",
+      "column",
+      "wrap",
+      "nowrap"
+    ]
+  },
+  {
+    "name": "font-family",
+    "description": "Specifies the font used for text.",
+    "codeExample": "font-family: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "FONT_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "normal",
+      "bold",
+      "italic",
+      "font-family"
+    ]
+  },
+  {
+    "name": "font-size",
+    "description": "Sets the size of text.",
+    "codeExample": "font-size: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "FONT_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "font-style",
+    "description": "Controls the font style behavior of an element.",
+    "codeExample": "font-style: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "FONT_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "normal",
+      "bold",
+      "italic",
+      "font-family"
+    ]
+  },
+  {
+    "name": "font-variant",
+    "description": "Controls the font variant behavior of an element.",
+    "codeExample": "font-variant: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "normal",
+      "bold",
+      "italic",
+      "font-family"
+    ]
+  },
+  {
+    "name": "font-weight",
+    "description": "Controls the thickness of text.",
+    "codeExample": "font-weight: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "FONT_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "normal",
+      "bold",
+      "italic",
+      "font-family"
+    ]
+  },
+  {
+    "name": "gap",
+    "description": "Sets spacing between grid or flex items.",
+    "codeExample": "gap: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "GAP_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "grid",
+    "description": "Defines a grid layout configuration.",
+    "codeExample": "grid: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "GRID_CSS",
+    "attributes": [
+      "auto",
+      "fr",
+      "px",
+      "%",
+      "repeat()",
+      "minmax()"
+    ]
+  },
+  {
+    "name": "grid-area",
+    "description": "Controls the grid area behavior of an element.",
+    "codeExample": "grid-area: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "GRID_CSS",
+    "attributes": [
+      "auto",
+      "fr",
+      "px",
+      "%",
+      "repeat()",
+      "minmax()"
+    ]
+  },
+  {
+    "name": "grid-auto-columns",
+    "description": "Controls the grid auto columns behavior of an element.",
+    "codeExample": "grid-auto-columns: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "GRID_CSS",
+    "attributes": [
+      "auto",
+      "fr",
+      "px",
+      "%",
+      "repeat()",
+      "minmax()"
+    ]
+  },
+  {
+    "name": "grid-auto-flow",
+    "description": "Controls the grid auto flow behavior of an element.",
+    "codeExample": "grid-auto-flow: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "GRID_CSS",
+    "attributes": [
+      "auto",
+      "fr",
+      "px",
+      "%",
+      "repeat()",
+      "minmax()"
+    ]
+  },
+  {
+    "name": "grid-auto-rows",
+    "description": "Controls the grid auto rows behavior of an element.",
+    "codeExample": "grid-auto-rows: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "GRID_CSS",
+    "attributes": [
+      "auto",
+      "fr",
+      "px",
+      "%",
+      "repeat()",
+      "minmax()"
+    ]
+  },
+  {
+    "name": "grid-column",
+    "description": "Controls the grid column behavior of an element.",
+    "codeExample": "grid-column: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "GRID_CSS",
+    "attributes": [
+      "auto",
+      "fr",
+      "px",
+      "%",
+      "repeat()",
+      "minmax()"
+    ]
+  },
+  {
+    "name": "grid-row",
+    "description": "Controls the grid row behavior of an element.",
+    "codeExample": "grid-row: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "GRID_CSS",
+    "attributes": [
+      "auto",
+      "fr",
+      "px",
+      "%",
+      "repeat()",
+      "minmax()"
+    ]
+  },
+  {
+    "name": "grid-template",
+    "description": "Controls the grid template behavior of an element.",
+    "codeExample": "grid-template: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "GRID_CSS",
+    "attributes": [
+      "auto",
+      "fr",
+      "px",
+      "%",
+      "repeat()",
+      "minmax()"
+    ]
+  },
+  {
+    "name": "height",
+    "description": "Sets the height of an element.",
+    "codeExample": "height: value;",
+    "language": "CSS",
+    "category": "SIZING_CSS",
+    "sub_category": "DIMENSIONS_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "inline-size",
+    "description": "Controls the inline size behavior of an element.",
+    "codeExample": "inline-size: value;",
+    "language": "CSS",
+    "category": "SIZING_CSS",
+    "sub_category": "DIMENSIONS_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "inset",
+    "description": "Controls the inset behavior of an element.",
+    "codeExample": "inset: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "POSITIONING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "justify-content",
+    "description": "Controls the justify content behavior of an element.",
+    "codeExample": "justify-content: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "left",
+    "description": "Controls the left behavior of an element.",
+    "codeExample": "left: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "POSITIONING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "letter-spacing",
+    "description": "Controls the letter spacing behavior of an element.",
+    "codeExample": "letter-spacing: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "line-height",
+    "description": "Sets the spacing between lines of text.",
+    "codeExample": "line-height: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "FONT_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "list-style",
+    "description": "Controls the list style behavior of an element.",
+    "codeExample": "list-style: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "margin",
+    "description": "Adds space outside an element.",
+    "codeExample": "margin: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "margin-bottom",
+    "description": "Adds space outside an element.",
+    "codeExample": "margin-bottom: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "margin-left",
+    "description": "Adds space outside an element.",
+    "codeExample": "margin-left: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "margin-right",
+    "description": "Adds space outside an element.",
+    "codeExample": "margin-right: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "margin-top",
+    "description": "Adds space outside an element.",
+    "codeExample": "margin-top: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "mask",
+    "description": "Controls the mask behavior of an element.",
+    "codeExample": "mask: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "EFFECTS_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "max-height",
+    "description": "Controls the max height behavior of an element.",
+    "codeExample": "max-height: value;",
+    "language": "CSS",
+    "category": "SIZING_CSS",
+    "sub_category": "DIMENSIONS_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "max-width",
+    "description": "Controls the max width behavior of an element.",
+    "codeExample": "max-width: value;",
+    "language": "CSS",
+    "category": "SIZING_CSS",
+    "sub_category": "DIMENSIONS_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "min-height",
+    "description": "Controls the min height behavior of an element.",
+    "codeExample": "min-height: value;",
+    "language": "CSS",
+    "category": "SIZING_CSS",
+    "sub_category": "DIMENSIONS_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "min-width",
+    "description": "Controls the min width behavior of an element.",
+    "codeExample": "min-width: value;",
+    "language": "CSS",
+    "category": "SIZING_CSS",
+    "sub_category": "DIMENSIONS_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "object-fit",
+    "description": "Controls the object fit behavior of an element.",
+    "codeExample": "object-fit: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "IMAGE_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "object-position",
+    "description": "Controls the object position behavior of an element.",
+    "codeExample": "object-position: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "IMAGE_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "opacity",
+    "description": "Controls the transparency of an element.",
+    "codeExample": "opacity: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "COLOR_CSS",
+    "attributes": [
+      "number(0-1)"
+    ]
+  },
+  {
+    "name": "order",
+    "description": "Controls the order behavior of an element.",
+    "codeExample": "order: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "FLEXBOX_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "outline",
+    "description": "Controls the outline behavior of an element.",
+    "codeExample": "outline: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "outline-color",
+    "description": "Controls the outline color behavior of an element.",
+    "codeExample": "outline-color: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "outline-offset",
+    "description": "Controls the outline offset behavior of an element.",
+    "codeExample": "outline-offset: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "outline-style",
+    "description": "Controls the outline style behavior of an element.",
+    "codeExample": "outline-style: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "none",
+      "solid",
+      "dashed",
+      "dotted",
+      "double",
+      "px",
+      "colors"
+    ]
+  },
+  {
+    "name": "outline-width",
+    "description": "Controls the outline width behavior of an element.",
+    "codeExample": "outline-width: value;",
+    "language": "CSS",
+    "category": "VISUAL_CSS",
+    "sub_category": "BORDER_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "overflow",
+    "description": "Controls the overflow behavior of an element.",
+    "codeExample": "overflow: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "visible",
+      "hidden",
+      "scroll",
+      "auto",
+      "clip"
+    ]
+  },
+  {
+    "name": "overflow-x",
+    "description": "Controls the overflow x behavior of an element.",
+    "codeExample": "overflow-x: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "visible",
+      "hidden",
+      "scroll",
+      "auto",
+      "clip"
+    ]
+  },
+  {
+    "name": "overflow-y",
+    "description": "Controls the overflow y behavior of an element.",
+    "codeExample": "overflow-y: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "visible",
+      "hidden",
+      "scroll",
+      "auto",
+      "clip"
+    ]
+  },
+  {
+    "name": "padding",
+    "description": "Adds space inside an element.",
+    "codeExample": "padding: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "padding-bottom",
+    "description": "Adds space inside an element.",
+    "codeExample": "padding-bottom: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "padding-left",
+    "description": "Adds space inside an element.",
+    "codeExample": "padding-left: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "padding-right",
+    "description": "Adds space inside an element.",
+    "codeExample": "padding-right: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "padding-top",
+    "description": "Adds space inside an element.",
+    "codeExample": "padding-top: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "MARGIN_PADDING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "perspective",
+    "description": "Controls the perspective behavior of an element.",
+    "codeExample": "perspective: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "deg",
+      "px",
+      "number",
+      "translate()",
+      "rotate()",
+      "scale()"
+    ]
+  },
+  {
+    "name": "pointer-events",
+    "description": "Controls the pointer events behavior of an element.",
+    "codeExample": "pointer-events: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "UI_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "position",
+    "description": "Determines how an element is positioned.",
+    "codeExample": "position: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "POSITIONING_CSS",
+    "attributes": [
+      "static",
+      "relative",
+      "absolute",
+      "fixed",
+      "sticky"
+    ]
+  },
+  {
+    "name": "resize",
+    "description": "Controls the resize behavior of an element.",
+    "codeExample": "resize: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "UI_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "right",
+    "description": "Controls the right behavior of an element.",
+    "codeExample": "right: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "POSITIONING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "rotate",
+    "description": "Controls the rotate behavior of an element.",
+    "codeExample": "rotate: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSFORM_CSS",
+    "attributes": [
+      "deg",
+      "px",
+      "number",
+      "translate()",
+      "rotate()",
+      "scale()"
+    ]
+  },
+  {
+    "name": "row-gap",
+    "description": "Controls the row gap behavior of an element.",
+    "codeExample": "row-gap: value;",
+    "language": "CSS",
+    "category": "SPACING_CSS",
+    "sub_category": "GAP_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "scale",
+    "description": "Controls the scale behavior of an element.",
+    "codeExample": "scale: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSFORM_CSS",
+    "attributes": [
+      "deg",
+      "px",
+      "number",
+      "translate()",
+      "rotate()",
+      "scale()"
+    ]
+  },
+  {
+    "name": "scroll-behavior",
+    "description": "Controls the scroll behavior behavior of an element.",
+    "codeExample": "scroll-behavior: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "SCROLLING_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "scroll-margin",
+    "description": "Controls the scroll margin behavior of an element.",
+    "codeExample": "scroll-margin: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "SCROLLING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "scroll-padding",
+    "description": "Controls the scroll padding behavior of an element.",
+    "codeExample": "scroll-padding: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "SCROLLING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "auto"
+    ]
+  },
+  {
+    "name": "scroll-snap-align",
+    "description": "Controls the scroll snap align behavior of an element.",
+    "codeExample": "scroll-snap-align: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "SCROLLING_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "scroll-snap-stop",
+    "description": "Controls the scroll snap stop behavior of an element.",
+    "codeExample": "scroll-snap-stop: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "SCROLLING_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "scroll-snap-type",
+    "description": "Controls the scroll snap type behavior of an element.",
+    "codeExample": "scroll-snap-type: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "SCROLLING_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "scrollbar-color",
+    "description": "Controls the scrollbar color behavior of an element.",
+    "codeExample": "scrollbar-color: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "SCROLLING_CSS",
+    "attributes": [
+      "colors",
+      "hex",
+      "#RRGGBB",
+      "rgb()",
+      "rgba()",
+      "hsl()",
+      "currentColor",
+      "transparent"
+    ]
+  },
+  {
+    "name": "scrollbar-width",
+    "description": "Controls the scrollbar width behavior of an element.",
+    "codeExample": "scrollbar-width: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "SCROLLING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "tab-size",
+    "description": "Controls the tab size behavior of an element.",
+    "codeExample": "tab-size: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "table-layout",
+    "description": "Controls the table layout behavior of an element.",
+    "codeExample": "table-layout: value;",
+    "language": "CSS",
+    "category": "TABLE_CSS",
+    "sub_category": "TABLE_LAYOUT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "text-align",
+    "description": "Controls horizontal text alignment.",
+    "codeExample": "text-align: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "left",
+      "center",
+      "right",
+      "justify",
+      "start",
+      "end"
+    ]
+  },
+  {
+    "name": "text-decoration",
+    "description": "Controls the text decoration behavior of an element.",
+    "codeExample": "text-decoration: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "text-indent",
+    "description": "Controls the text indent behavior of an element.",
+    "codeExample": "text-indent: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "text-overflow",
+    "description": "Controls the text overflow behavior of an element.",
+    "codeExample": "text-overflow: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "visible",
+      "hidden",
+      "scroll",
+      "auto",
+      "clip"
+    ]
+  },
+  {
+    "name": "text-shadow",
+    "description": "Controls the text shadow behavior of an element.",
+    "codeExample": "text-shadow: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "text-transform",
+    "description": "Controls the text transform behavior of an element.",
+    "codeExample": "text-transform: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSFORM_CSS",
+    "attributes": [
+      "deg",
+      "px",
+      "number",
+      "translate()",
+      "rotate()",
+      "scale()"
+    ]
+  },
+  {
+    "name": "top",
+    "description": "Controls the top behavior of an element.",
+    "codeExample": "top: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "POSITIONING_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "transform",
+    "description": "Applies visual transformations to an element.",
+    "codeExample": "transform: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSFORM_CSS",
+    "attributes": [
+      "deg",
+      "px",
+      "number",
+      "translate()",
+      "rotate()",
+      "scale()"
+    ]
+  },
+  {
+    "name": "transform-origin",
+    "description": "Controls the transform origin behavior of an element.",
+    "codeExample": "transform-origin: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSFORM_CSS",
+    "attributes": [
+      "deg",
+      "px",
+      "number",
+      "translate()",
+      "rotate()",
+      "scale()"
+    ]
+  },
+  {
+    "name": "transition",
+    "description": "Animates changes between property values.",
+    "codeExample": "transition: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSITION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "transition-delay",
+    "description": "Controls the transition delay behavior of an element.",
+    "codeExample": "transition-delay: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSITION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "transition-duration",
+    "description": "Controls the transition duration behavior of an element.",
+    "codeExample": "transition-duration: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSITION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "transition-property",
+    "description": "Controls the transition property behavior of an element.",
+    "codeExample": "transition-property: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSITION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "transition-timing-function",
+    "description": "Controls the transition timing function behavior of an element.",
+    "codeExample": "transition-timing-function: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSITION_CSS",
+    "attributes": [
+      "s",
+      "ms",
+      "ease",
+      "linear",
+      "ease-in",
+      "ease-out",
+      "name"
+    ]
+  },
+  {
+    "name": "translate",
+    "description": "Controls the translate behavior of an element.",
+    "codeExample": "translate: value;",
+    "language": "CSS",
+    "category": "ANIMATION_CSS",
+    "sub_category": "TRANSFORM_CSS",
+    "attributes": [
+      "deg",
+      "px",
+      "number",
+      "translate()",
+      "rotate()",
+      "scale()"
+    ]
+  },
+  {
+    "name": "user-select",
+    "description": "Controls the user select behavior of an element.",
+    "codeExample": "user-select: value;",
+    "language": "CSS",
+    "category": "INTERACTION_CSS",
+    "sub_category": "UI_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "vertical-align",
+    "description": "Controls the vertical align behavior of an element.",
+    "codeExample": "vertical-align: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "visibility",
+    "description": "Controls the visibility behavior of an element.",
+    "codeExample": "visibility: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "DISPLAY_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "white-space",
+    "description": "Controls the white space behavior of an element.",
+    "codeExample": "white-space: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "width",
+    "description": "Sets the width of an element.",
+    "codeExample": "width: value;",
+    "language": "CSS",
+    "category": "SIZING_CSS",
+    "sub_category": "DIMENSIONS_CSS",
+    "attributes": [
+      "px",
+      "rem",
+      "em",
+      "%",
+      "vw",
+      "vh",
+      "auto"
+    ]
+  },
+  {
+    "name": "word-break",
+    "description": "Controls the word break behavior of an element.",
+    "codeExample": "word-break: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "word-spacing",
+    "description": "Controls the word spacing behavior of an element.",
+    "codeExample": "word-spacing: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "word-wrap",
+    "description": "Controls the word wrap behavior of an element.",
+    "codeExample": "word-wrap: value;",
+    "language": "CSS",
+    "category": "TYPOGRAPHY_CSS",
+    "sub_category": "TEXT_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  },
+  {
+    "name": "z-index",
+    "description": "Controls the stacking order of overlapping elements.",
+    "codeExample": "z-index: value;",
+    "language": "CSS",
+    "category": "LAYOUT_CSS",
+    "sub_category": "POSITIONING_CSS",
+    "attributes": [
+      "keyword",
+      "inherit",
+      "initial",
+      "unset",
+      "revert"
+    ]
+  }
+
+]
