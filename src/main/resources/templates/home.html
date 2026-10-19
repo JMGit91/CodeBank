@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeBank</title>
+</head>
+<body>
+    <header id="page-header">
+        <div id="page-title">
+            <h1>CODEREF</h1>
+        </div>
+    </header>
+    <section id="form-side">
+        <div id="search-form-div">
+            <p>Search for a Keyword:</p>
+                <form id="search-form" th:action="@{/search}" method="get">
+                    <div id="left-form">
+                        <div class="radio-group">
+                            <input type="radio" name="searchcheck" id="name-check" value="1">
+                            <label class="check" for="name-check">Name</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" name="searchcheck" id="desc-check" value="2">
+                            <label class="check" for="desc-check">Description</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" name="searchcheck" id="code-check" value="3">
+                            <label class="check" for="code-check">Code Example</label>
+                        </div>
+                    </div>
+                    <div id="right-form">
+                        <input type="text" id="searchBox" name="search" placeholder="Search Language Term...">
+                        <button type="submit" name="action" value="search">Search</button>
+                        <button type="submit" name="action" value="clear">Clear</button>
+                    </div>
+                </form>
+        </div>
+        <div id="search-table">
+            <table id="searchTable" >
+                <caption><h2>Search Results:</h2></caption>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                    <th>Language</th>
+                </tr>
+                </thead>
+                <tbody th:if="${showSearch}">
+                    <tr th:if="${results.size() != 0}" id="searchRows" th:each="term : ${results}">
+                        <td id="firstSearch" th:text="${term.getName()}"></td>
+                        <td class="cell" th:text="${term.getDescription()}"></td>
+                        <td class="cell" th:text="${term.getCodeExample()}"></td>
+                        <td class="cell" th:text="${term.getLanguage()}"></td>
+                    </tr>
+                    <tr th:if="${showSearch && results == null || results.size() == 0}">
+                        <th colspan="3"> No Results.</th>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </section>
+    <section id="select-side">
+        <div id="languageLinks">
+            <form th:each="language : ${languages}" th:action="@{/{language}(language=${language})}" method="get">
+                <button th:text="${language.getLanguage()}"></button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
