@@ -1,13 +1,14 @@
 package codebank.controller;
 
+import codebank.form.SearchForm;
 import codebank.service.AttributeService;
 import codebank.service.KeywordService;
 import codebank.service.TermService;
+import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/")
@@ -28,24 +29,31 @@ public class HomeController {
     @GetMapping
     public String showHome(Model model) {
         model.addAttribute("languages", keywordService.findAllLanguages());
+        model.addAttribute("searchForm", new SearchForm());
         return "home";
     }
 
     @GetMapping("search")
-    public String searchTerms(@RequestParam(value = "search", required = false) String search,
-                              @RequestParam(value = "searchcheck",required = false) String searchcheck,
-                              @RequestParam(value = "action") String action,
+    public String searchTerms(@Valid @ModelAttribute("searchForm") SearchForm searchForm,
+                              BindingResult bindingResult,
+                              @RequestParam("action") String action,
                               Model model) {
-        model.addAttribute("languages", keywordService.findAllLanguages());
-        if ("search".equals(action)) {
-            model.addAttribute("showSearch", true);
-            switch (searchcheck) {
-                case "1" -> model.addAttribute("results", keywordService.findByName(search));
-                case "2" -> model.addAttribute("results", keywordService.findByDescription(search));
-                case "3" -> model.addAttribute("results", keywordService.findByCodeExample(search));
-            }
+        if (bindingResult.hasErrors()) {
+            model.addAttribute("languages", keywordService.findAllLanguages());
             return "home";
         }
-        return "redirect:/";
+        if (action.equals("clear")) {
+            return "redirect:/";
+        }
+
+        model.addAttribute("languages", keywordService.findAllLanguages());
+
+        model.addAttribute("showSearch", true);
+        switch (searchForm.getStatus()) {
+            case NAME -> model.addAttribute("results", keywordService.findByName(searchForm.getSearch()));
+            case DESCRIPTION -> model.addAttribute("results", keywordService.findByDescription(searchForm.getSearch()));
+            case EXAMPLE -> model.addAttribute("results", keywordService.findByCodeExample(searchForm.getSearch()));
+        }
+        return "home";
     }
 }
