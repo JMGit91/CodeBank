@@ -1,8 +1,7 @@
 package codebank.entity;
 
 import codebank.entity_enums.Category;
-import codebank.entity_enums.Language;
-import codebank.entity_enums.SubCategory;
+import codebank.entity_enums.Sub_Category;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -17,7 +16,7 @@ public class Keyword extends Term{
     private Category category;
 
     @Enumerated(EnumType.STRING)
-    private SubCategory subCategory;
+    private Sub_Category sub_category;
 
 
     @ManyToMany
@@ -43,12 +42,12 @@ public class Keyword extends Term{
         this.category = category;
     }
 
-    public SubCategory getSubCategory() {
-        return subCategory;
+    public Sub_Category getSubCategory() {
+        return sub_category;
     }
 
-    public void setSubCategory(SubCategory subCategory) {
-        this.subCategory = subCategory;
+    public void setSubCategory(Sub_Category sub_category) {
+        this.sub_category = sub_category;
     }
 
     public List<Attribute> getAttributes() {

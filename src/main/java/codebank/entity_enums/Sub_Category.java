@@ -1,8 +1,6 @@
 package codebank.entity_enums;
 
-public enum SubCategory {
-
-
+public enum Sub_Category {
 
     //HTML SubCategories//
     ROOT_STRUCTURE_HTML("Structure", Language.HTML),
@@ -70,43 +68,43 @@ public enum SubCategory {
 
     //SQL//
     //Data Types//
-    NUMERIC_TYPES_SQL("Numeric Types", Language.CPP),
-    CHARACTER_TYPES_SQL("Character Types", Language.CPP),
-    BINARY_TYPES_SQL("Binary Types", Language.CPP),
-    DATE_TIME_TYPES_SQL("Date / Time Types", Language.CPP),
-    BOOLEAN_SQL("Boolean Types", Language.CPP),
-    STRUCTURED_TYPES_SQL("Structured Types", Language.CPP),
+    NUMERIC_TYPES_SQL("Numeric Types", Language.SQL),
+    CHARACTER_TYPES_SQL("Character Types", Language.SQL),
+    BINARY_TYPES_SQL("Binary Types", Language.SQL),
+    DATE_TIME_TYPES_SQL("Date / Time Types", Language.SQL),
+    BOOLEAN_SQL("Boolean Types", Language.SQL),
+    STRUCTURED_TYPES_SQL("Structured Types", Language.SQL),
     //Keywords//
-    DATA_DEFINITION_DDL_SQL("Data Definition", Language.CPP),
-    DATA_MANIPULATION_DML_SQL("Data Manipulation", Language.CPP),
-    QUERY_CLAUSES_SQL("Query Clauses", Language.CPP),
-    JOIN_KEYWORDS_SQL("Join Keywords", Language.CPP),
-    CONTROL_LOGIC_SQL("Control Logic", Language.CPP),
-    TRANSACTION_SQL("Transactions", Language.CPP),
-    ACCESS_CONTROL_SQL("Access Control", Language.CPP),
+    DATA_DEFINITION_DDL_SQL("Data Definition", Language.SQL),
+    DATA_MANIPULATION_DML_SQL("Data Manipulation", Language.SQL),
+    QUERY_CLAUSES_SQL("Query Clauses", Language.SQL),
+    JOIN_KEYWORDS_SQL("Join Keywords", Language.SQL),
+    CONTROL_LOGIC_SQL("Control Logic", Language.SQL),
+    TRANSACTION_SQL("Transactions", Language.SQL),
+    ACCESS_CONTROL_SQL("Access Control", Language.SQL),
     //Functions//
-    SCALAR_FUNCTIONS_SQL("Scalar Functions", Language.CPP),
-    AGGREGATE_FUNCTIONS_SQL("Aggregate Functions", Language.CPP),
-    WINDOW_ANALYTIC_FUNCTIONS_SQL("Window Analytic Functions", Language.CPP),
-    CONDITIONAL_FUNCTIONS_SQL("Conditional Functions", Language.CPP),
-    JSON_FUNCTIONS_SQL("Json Functions", Language.CPP),
-    XML_FUNCTIONS_SQL("XML Functions", Language.CPP),
-    SPATIAL_FUNCTIONS_SQL("Spatial Functions", Language.CPP),
+    SCALAR_FUNCTIONS_SQL("Scalar Functions", Language.SQL),
+    AGGREGATE_FUNCTIONS_SQL("Aggregate Functions", Language.SQL),
+    WINDOW_ANALYTIC_FUNCTIONS_SQL("Window Analytic Functions", Language.SQL),
+    CONDITIONAL_FUNCTIONS_SQL("Conditional Functions", Language.SQL),
+    JSON_FUNCTIONS_SQL("Json Functions", Language.SQL),
+    XML_FUNCTIONS_SQL("XML Functions", Language.SQL),
+    SPATIAL_FUNCTIONS_SQL("Spatial Functions", Language.SQL),
     //Server Functions//
-    SYSTEM_INFORMATION_SQL("System Information", Language.CPP),
-    CONNECTION_SESSION_INFORMATION_SQL("Connection Session Information", Language.CPP),
-    ENVIRONMENT_METADATA_SQL("Environment Metadata", Language.CPP),
-    ERROR_DIAGNOSTIC_SQL("Error Diagnostics", Language.CPP),
+    SYSTEM_INFORMATION_SQL("System Information", Language.SQL),
+    CONNECTION_SESSION_INFORMATION_SQL("Connection Session Information", Language.SQL),
+    ENVIRONMENT_METADATA_SQL("Environment Metadata", Language.SQL),
+    ERROR_DIAGNOSTIC_SQL("Error Diagnostics", Language.SQL),
     //Access Functions//
-    PRIVILEGE_MANAGEMENT_SQL("Privilege Management", Language.CPP),
-    ROLE_USER_MANAGEMENT_SQL("Role Management", Language.CPP),
-    SECURITY_FUNCTIONS_SQL("Security Functions", Language.CPP),
-    AUTHENTICATION_AUTHORIZATION_SQL("Authentication / Authorization", Language.CPP);
+    PRIVILEGE_MANAGEMENT_SQL("Privilege Management", Language.SQL),
+    ROLE_USER_MANAGEMENT_SQL("Role Management", Language.SQL),
+    SECURITY_FUNCTIONS_SQL("Security Functions", Language.SQL),
+    AUTHENTICATION_AUTHORIZATION_SQL("Authentication / Authorization", Language.SQL);
 
     private Language language;
     private String subCategory;
 
-    SubCategory(String subCategory, Language language) {
+    Sub_Category(String subCategory, Language language) {
         this.subCategory = subCategory;
         this.language = language;
     }

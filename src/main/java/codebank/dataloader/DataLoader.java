@@ -70,7 +70,7 @@ public class DataLoader implements CommandLineRunner {
                 k.setLanguage(dto.language);
                 k.setCodeExample(dto.codeExample);
                 k.setCategory(dto.category);
-                k.setSubCategory(dto.subCategory);
+                k.setSubCategory(dto.sub_category);
 
                 keywords.add(keywordRepository.save(k));
             }

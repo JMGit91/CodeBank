@@ -2,7 +2,7 @@ package codebank.dto;
 
 import codebank.entity_enums.Category;
 import codebank.entity_enums.Language;
-import codebank.entity_enums.SubCategory;
+import codebank.entity_enums.Sub_Category;
 
 import java.util.List;
 
@@ -13,6 +13,6 @@ public class KeywordDTO {
     public Language language;
     public String codeExample;
     public Category category;
-    public SubCategory subCategory;
+    public Sub_Category sub_category;
     public List<String> attributes;
 }

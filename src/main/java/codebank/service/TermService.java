@@ -1,5 +1,6 @@
 package codebank.service;
 
+import codebank.entity.Keyword;
 import codebank.entity_enums.Language;
 import codebank.repository.TermRepository;
 import org.springframework.stereotype.Service;

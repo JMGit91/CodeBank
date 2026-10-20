@@ -5,6 +5,76 @@
     <title th:text="${language}"></title>
 </head>
 <body>
+    <header id="page-header">
+        <div id="page-title">
+            <h1>CODEREF</h1>
+        </div>
+        <div id="home-button">
+            <form th:action="@{/}" method="get">
+                <button>Home</button>
+            </form>
+        </div>
+    </header>
+    <section>
+        <div id="category-links">
+            <form th:each="category : ${categoryList}"
+                  th:action="@{/categories/{language}/{category}(language=${language},category=${category})}"
+                  method="get">
+                <button type="submit" name="action" value="show" th:text="${category.getCategory()}"></button>
+            </form>
+        </div>
+        <div id="keyword-table-div" th:if="${showCategory}">
+            <table id="command-table">
+                <caption><h2 th:text="${category}"></h2></caption>
+                <thead>
+                    <tr class="labelRow">
+                        <th>Term</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                        <th>Modifiers</th>
+                    </tr>
+                </thead>
+                <tbody  th:each="sub : ${subcategoryList}">
+                    <tr>
+                        <th colspan="4" th:text="${sub.subCategory}"></th>
+                    </tr>
+                    <th:block th:each="key : ${categoryKeywords}">
+                        <tr th:if="${key.subCategory == sub}">
+                            <td th:text="${key.name}"></td>
+                            <td th:text="${key.description}"></td>
+                            <td th:text="${key.codeExample}"></td>
+                            <td class="cell">
+                                <form id="attributesButton" th:action="@{/attributes/{Id}(Id=${key.id})}" th:if="${key.attributes.size() != 0}">
+                                    <button type="submit" name="show" value="true">Attributes</button>
+                                </form>
+                                <p th:if="${key.attributes.size() == 0}">N/A</p>
+                            </td>
+                        </tr>
+                    </th:block>
+                </tbody>
+            </table>
+        </div>
+        <div id="modifierTableDiv" th:if="${showAttributes}">
+            <form id="backButton" th:action="@{/categories/{language}/{category}(language=${language},category=${category})}"
+                  method="get">
+                <button type="submit" name="action" value="show">Back</button>
+            </form>
+            <p id="intro">Modifiers for:</p>
+            <table id="modifierTable">
+                <caption id="modifier"><h2 th:text="${keyword}"></h2></caption>
+                <tr class="labelRow">
+                    <th>Modifier</th>
+                    <th>Description</th>
+                </tr>
+                <tbody>
+                <tr id="modifierRows" th:each="attribute : ${attributesList}">
+                    <td id="modifierName" th:text="${attribute.name}"></td>
+                    <td class="cell" th:text="${attribute.description}"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
 </body>
 </html>

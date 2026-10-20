@@ -2,6 +2,7 @@ package codebank.entity;
 
 import codebank.entity_enums.Language;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 public abstract class Term {
