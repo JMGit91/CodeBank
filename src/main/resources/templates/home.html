@@ -3,80 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>CodeBank</title>
+    <link rel="stylesheet" href="/css/home.css">
 </head>
+<header id="page-header">
+    <div id="page-title">
+        <h1>CODEREF</h1>
+    </div>
+</header>
 <body>
-    <header id="page-header">
-        <div id="page-title">
-            <h1>CODEREF</h1>
-        </div>
-    </header>
-    <section id="form-side">
-        <div id="search-form-div">
-            <p>Search:</p>
-                <form id="search-form" th:action="@{/search}" th:object="${searchForm}" method="get">
-                    <div id="left-form">
-                        <div class="radio-group">
-                            <input type="radio" th:field="*{status}" id="name-check" value="NAME">
-                            <label class="check" for="name-check">Name</label>
+    <section id="page-body">
+        <section id="form-side">
+            <div id="form-margin">
+                <h1 id="search-title"><u>Search:</u></h1>
+                <div id="search-form-div">
+                    <form id="search-form" th:action="@{/search}" th:object="${searchForm}" method="get">
+                        <div id="left-form">
+                            <div class="radio-group">
+                                <input type="radio" th:field="*{status}" id="name-check" value="NAME">
+                                <label class="check" for="name-check">Name</label>
+
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" th:field="*{status}" id="desc-check" value="DESCRIPTION">
+                                <label class="check" for="desc-check">Description</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" th:field="*{status}" id="code-check" value="EXAMPLE">
+                                <label class="check" for="code-check">Code Example</label>
+                            </div>
 
                         </div>
-                        <div class="radio-group">
-                            <input type="radio" th:field="*{status}" id="desc-check" value="DESCRIPTION">
-                            <label class="check" for="desc-check">Description</label>
-                        </div>
-                        <div class="radio-group">
-                            <input type="radio" th:field="*{status}" id="code-check" value="EXAMPLE">
-                            <label class="check" for="code-check">Code Example</label>
+                        <div id="right-form">
+                            <input type="text" id="searchBox" th:field="*{search}" placeholder="Search Language Term...">
+                            <button type="submit" name="action" value="search">Search</button>
+                            <button type="submit" name="action" value="clear">Clear</button>
                         </div>
 
-                    </div>
-                    <div id="right-form">
-                        <input type="text" id="searchBox" name="search" th:field="*{search}" placeholder="Search Language Term...">
-                        <button type="submit" name="action" value="search">Search</button>
-                        <button type="submit" name="action" value="clear">Clear</button>
-                    </div>
+                    </form>
+                </div>
+                <div id="errors" th:object="${searchForm}">
                     <div th:if="${#fields.hasErrors('status')}"
                          th:errors="*{status}">
                     </div>
                     <div th:if="${#fields.hasErrors('search')}"
                          th:errors="*{search}">
                     </div>
-                    
+                </div>
+            </div>
+                <div id="search-table-div">
+                    <table id="search-table" >
+                        <caption><h2>Search Results:</h2></caption>
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Example</th>
+                            <th>Language</th>
+                        </tr>
+                        </thead>
+                        <tbody th:if="${showSearch}">
+                            <tr  id="searchRows" th:each="term : ${results}">
+                                <td id="firstSearch" th:text="${term.name}"></td>
+                                <td class="cell" th:text="${term.description}"></td>
+                                <td class="cell" th:text="${term.codeExample}"></td>
+                                <td class="cell" th:text="${term.language.language}"></td>
+                            </tr>
+                            <tr th:if="${results == null or #lists.isEmpty(results)}">
+                                <th colspan="4"> No Results.</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </section>
+        <section id="select-side">
+            <div id="language-title">
+                <h1>Select Language</h1>
+            </div>
+            <div id="language-links">
+                <form th:each="language : ${languages}" th:action="@{/{language}(language=${language})}" method="get">
+                    <button th:text="${language.getLanguage()}"></button>
                 </form>
-        </div>
-        <div id="search-table">
-            <table id="searchTable" >
-                <caption><h2>Search Results:</h2></caption>
-                <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Example</th>
-                    <th>Language</th>
-                </tr>
-                </thead>
-                <tbody th:if="${showSearch}">
-                    <tr th:if="${results.size() != 0}" id="searchRows" th:each="term : ${results}">
-                        <td id="firstSearch" th:text="${term.getName()}"></td>
-                        <td class="cell" th:text="${term.getDescription()}"></td>
-                        <td class="cell" th:text="${term.getCodeExample()}"></td>
-                        <td class="cell" th:text="${term.getLanguage()}"></td>
-                    </tr>
-                    <tr th:if="${showSearch && results == null || results.size() == 0}">
-                        <th colspan="3"> No Results.</th>
-                    </tr>
-                </tbody>
-
-            </table>
-
-        </div>
-    </section>
-    <section id="select-side">
-        <div id="languageLinks">
-            <form th:each="language : ${languages}" th:action="@{/{language}(language=${language})}" method="get">
-                <button th:text="${language.getLanguage()}"></button>
-            </form>
-        </div>
+            </div>
+        </section>
     </section>
 </body>
 </html>

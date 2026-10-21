@@ -30,6 +30,7 @@ public class HomeController {
     public String showHome(Model model) {
         model.addAttribute("languages", keywordService.findAllLanguages());
         model.addAttribute("searchForm", new SearchForm());
+        model.addAttribute("showSearch", false);
         return "home";
     }
 
@@ -38,22 +39,27 @@ public class HomeController {
                               BindingResult bindingResult,
                               @RequestParam("action") String action,
                               Model model) {
+        if ("clear".equals(action)) {
+            return "redirect:/";
+        }
         if (bindingResult.hasErrors()) {
             model.addAttribute("languages", keywordService.findAllLanguages());
             return "home";
         }
-        if (action.equals("clear")) {
-            return "redirect:/";
-        }
 
+        model.addAttribute("action", action);
         model.addAttribute("languages", keywordService.findAllLanguages());
 
         model.addAttribute("showSearch", true);
-        switch (searchForm.getStatus()) {
-            case NAME -> model.addAttribute("results", keywordService.findByName(searchForm.getSearch()));
-            case DESCRIPTION -> model.addAttribute("results", keywordService.findByDescription(searchForm.getSearch()));
-            case EXAMPLE -> model.addAttribute("results", keywordService.findByCodeExample(searchForm.getSearch()));
+        if ("search".equals(action)) {
+            switch (searchForm.getStatus()) {
+                case NAME -> model.addAttribute("results", keywordService.findByName(searchForm.getSearch()));
+                case DESCRIPTION ->
+                        model.addAttribute("results", keywordService.findByDescription(searchForm.getSearch()));
+                case EXAMPLE -> model.addAttribute("results", keywordService.findByCodeExample(searchForm.getSearch()));
+            }
         }
         return "home";
     }
+
 }
